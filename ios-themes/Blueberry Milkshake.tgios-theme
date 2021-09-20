@@ -1,0 +1,431 @@
+name: Blueberry Milkshake
+basedOn: day
+dark: true
+intro:
+  statusBar: black
+  primaryText: 000000
+  accentText: 007ee5
+  disabledText: d0d0d0
+  startButton: 2ca5e0
+  dot: d9d9d9
+passcode:
+  bg:
+    top: 736a81
+    bottom: 736a81
+  button: clear
+root:
+  statusBar: black
+  tabBar:
+    background: 736a81
+    separator: 33a9aecc
+    icon: a1a9aecc
+    selectedIcon: a9aecc
+    text: a1a9aecc
+    selectedText: a9aecc
+    badgeBackground: 36374f
+    badgeStroke: 736a81
+    badgeText: 736a81
+  navBar:
+    button: a9aecc
+    disabledButton: 33a9aecc
+    primaryText: 36374f
+    secondaryText: 645f77
+    control: a9aecc
+    accentText: a9aecc
+    background: 736a81
+    opaqueBackground: 736a81
+    separator: 33a9aecc
+    badgeFill: 36374f
+    badgeStroke: 736a81
+    badgeText: ffffff
+    segmentedBg: 33d6d6d6
+    segmentedFg: 736a81
+    segmentedText: 36374f
+    segmentedDivider: 736a81
+  searchBar:
+    background: 736a81
+    accent: a9aecc
+    inputFill: 33d6d6d6
+    inputText: 000000
+    inputPlaceholderText: a1a9aecc
+    inputIcon: 33000000
+    inputClearButton: 7b7b81
+    separator: 33a9aecc
+  keyboard: light
+list:
+  blocksBg: 736a81
+  plainBg: 736a81
+  primaryText: 36374f
+  secondaryText: 645f77
+  disabledText: 1ea9aecc
+  accent: a9aecc
+  highlighted: 1ea9aecc
+  destructive: ff3b30
+  placeholderText: c8c8ce
+  itemBlocksBg: 736a81
+  itemHighlightedBg: 1ea9aecc
+  blocksSeparator: 33a9aecc
+  plainSeparator: 33a9aecc
+  disclosureArrow: bab9be
+  sectionHeaderText: 6d6d72
+  freeText: 6d6d72
+  freeTextError: cf3030
+  freeTextSuccess: 26972c
+  freeMonoIcon: 7e7e87
+  switch:
+    frame: e0e0e0
+    handle: ffffff
+    content: 77d572
+    positive: 00c900
+    negative: ff3b30
+  disclosureActions:
+    neutral1:
+      bg: 4892f2
+      fg: ffffff
+    neutral2:
+      bg: f09a37
+      fg: ffffff
+    destructive:
+      bg: ff3824
+      fg: ffffff
+    constructive:
+      bg: 00c900
+      fg: ffffff
+    accent:
+      bg: a9aecc
+      fg: ffffff
+    warning:
+      bg: ff9500
+      fg: ffffff
+    inactive:
+      bg: bcbcc3
+      fg: ffffff
+  check:
+    bg: a9aecc
+    stroke: c7c7cc
+    fg: ffffff
+  controlSecondary: dedede
+  freeInputField:
+    bg: 736a81
+    stroke: 736a81
+    placeholder: 96979d
+    primary: 36374f
+    control: a9aecc
+  mediaPlaceholder: e4e4e4
+  scrollIndicator: 4c000000
+  pageIndicatorInactive: e3e3e7
+  inputClearButton: cccccc
+  itemBarChart:
+    color1: 007ee5
+    color2: c8c7cc
+    color3: f2f1f7
+  itemInputField:
+    bg: f2f2f7
+    stroke: f2f2f7
+    placeholder: b6b6bb
+    primary: 000000
+    control: b6b6bb
+chatList:
+  bg: 736a81
+  itemSeparator: 33a9aecc
+  itemBg: 1ed6d6d6
+  pinnedItemBg: 736a81
+  itemHighlightedBg: 1ea9aecc
+  itemSelectedBg: 1ea9aecc
+  title: 36374f
+  secretTitle: 00b12c
+  dateText: 645f77
+  authorName: 645f77
+  messageText: 645f77
+  messageHighlightedText: 000000
+  messageDraftText: 645f77
+  checkmark: a9aecc
+  pendingIndicator: 645f77
+  failedFill: ff3b30
+  failedFg: ffffff
+  muteIcon: 645f77
+  unreadBadgeActiveBg: a9aecc
+  unreadBadgeActiveText: 353b5a
+  unreadBadgeInactiveBg: b6b6bb
+  unreadBadgeInactiveText: ffffff
+  pinnedBadge: a9aecc
+  pinnedSearchBar: e5e5e5
+  regularSearchBar: e9e9e9
+  sectionHeaderBg: 33d6d6d6
+  sectionHeaderText: 8e8e93
+  verifiedIconBg: a9aecc
+  verifiedIconFg: ffffff
+  secretIcon: 00b12c
+  pinnedArchiveAvatar:
+    background:
+      top: 1ea9aecc
+      bottom: a9aecc
+    foreground: ffffff
+  unpinnedArchiveAvatar:
+    background:
+      top: 1e645f77
+      bottom: 645f77
+    foreground: ffffff
+  onlineDot: 4cc91f
+chat:
+  defaultWallpaper: ZLXKJ7N_gFUIAAAABDPFcsIMRtA
+  animateMessageColors: false
+  message:
+    incoming:
+      bubble:
+        withWp:
+          bg: 837a92
+          gradientBg: 837a92
+          highlightedBg: ccdadade
+          stroke: 837a92
+        withoutWp:
+          bg: 837a92
+          gradientBg: 837a92
+          highlightedBg: ccdadade
+          stroke: 837a92
+      primaryText: 36374f
+      secondaryText: 645f77
+      linkText: a9aecc
+      linkHighlight: 1ea9aecc
+      scam: ff3b30
+      textHighlight: 1ea9aecc
+      accentText: a9aecc
+      accentControl: a9aecc
+      mediaActiveControl: a9aecc
+      mediaInactiveControl: cacaca
+      mediaControlInnerBg: 837a92
+      pendingActivity: 99525252
+      fileTitle: a9aecc
+      fileDescription: 999999
+      fileDuration: 99525252
+      mediaPlaceholder: f2f2f2
+      polls:
+        radioButton: c8c7cc
+        radioProgress: a9aecc
+        highlight: 1ea9aecc
+        separator: c8c7cc
+        bar: a9aecc
+        barIconForeground: ffffff
+        barPositive: 00a700
+        barNegative: fe3824
+      actionButtonsBg:
+        withWp: 66a5a5a5
+        withoutWp: ccffffff
+      actionButtonsStroke:
+        withWp: clear
+        withoutWp: a9aecc
+      actionButtonsText:
+        withWp: ffffff
+        withoutWp: a9aecc
+      textSelection: 4ca9aecc
+      textSelectionKnob: a9aecc
+    outgoing:
+      bubble:
+        withWp:
+          bg: 7b728b
+          gradientBg: 7b728b
+          highlightedBg: ccdadade
+          stroke: 7b728b
+        withoutWp:
+          bg: 7b728b
+          gradientBg: 7b728b
+          highlightedBg: ccdadade
+          stroke: 7b728b
+      primaryText: ffffff
+      secondaryText: a5ffffff
+      linkText: ffffff
+      linkHighlight: 4cffffff
+      scam: ffffff
+      textHighlight: 4cffffff
+      accentText: ffffff
+      accentControl: ffffff
+      mediaActiveControl: ffffff
+      mediaInactiveControl: a5ffffff
+      mediaControlInnerBg: 7b728b
+      pendingActivity: a5ffffff
+      fileTitle: ffffff
+      fileDescription: a5ffffff
+      fileDuration: a5ffffff
+      mediaPlaceholder: 0000f2
+      polls:
+        radioButton: a5ffffff
+        radioProgress: ffffff
+        highlight: 1effffff
+        separator: a5ffffff
+        bar: ffffff
+        barIconForeground: clear
+        barPositive: ffffff
+        barNegative: ffffff
+      actionButtonsBg:
+        withWp: 66a5a5a5
+        withoutWp: ccffffff
+      actionButtonsStroke:
+        withWp: clear
+        withoutWp: a9aecc
+      actionButtonsText:
+        withWp: ffffff
+        withoutWp: a9aecc
+      textSelection: 33ffffff
+      textSelectionKnob: ffffff
+    freeform:
+      withWp:
+        bg: e5e5ea
+        gradientBg: e5e5ea
+        highlightedBg: dadade
+        stroke: e5e5ea
+      withoutWp:
+        bg: e5e5ea
+        gradientBg: e5e5ea
+        highlightedBg: dadade
+        stroke: e5e5ea
+    infoPrimaryText: 000000
+    infoLinkText: 004bad
+    outgoingCheck: ffffff
+    mediaDateAndStatusBg: 7f000000
+    mediaDateAndStatusText: ffffff
+    shareButtonBg:
+      withWp: 66a5a5a5
+      withoutWp: ccffffff
+    shareButtonStroke:
+      withWp: clear
+      withoutWp: e5e5ea
+    shareButtonFg:
+      withWp: ffffff
+      withoutWp: a9aecc
+    mediaOverlayControl:
+      bg: 99000000
+      fg: ffffff
+    selectionControl:
+      bg: a9aecc
+      stroke: c7c7cc
+      fg: ffffff
+    deliveryFailed:
+      bg: ff3b30
+      fg: ffffff
+    mediaHighlightOverlay: 99ffffff
+    stickerPlaceholder:
+      withWp: 4c000000
+      withoutWp: f7f7f7
+    stickerPlaceholderShimmer:
+      withWp: 33ffffff
+      withoutWp: 19000000
+  serviceMessage:
+    components:
+      withDefaultWp:
+        bg: ccffffff
+        primaryText: 8d8e93
+        linkHighlight: 3f748391
+        scam: ff3b30
+        dateFillStatic: ccffffff
+        dateFillFloat: ccffffff
+      withCustomWp:
+        bg: 66a5a5a5
+        primaryText: ffffff
+        linkHighlight: 3f748391
+        scam: ff3b30
+        dateFillStatic: 66a5a5a5
+        dateFillFloat: 44a5a5a5
+    unreadBarBg: ffffff
+    unreadBarStroke: ffffff
+    unreadBarText: 8d8e93
+    dateText:
+      withWp: ffffff
+      withoutWp: 8d8e93
+  inputPanel:
+    panelBg: 736a81
+    panelSeparator: 33a9aecc
+    panelControlAccent: a9aecc
+    panelControl: 645f77
+    panelControlDisabled: 1e645f77
+    panelControlDestructive: ff3b30
+    inputBg: 1ed6d6d6
+    inputStroke: 736a81
+    inputPlaceholder: 33645f77
+    inputText: 36374f
+    inputControl: a9aecc
+    actionControlBg: a9aecc
+    actionControlFg: ffffff
+    primaryText: 36374f
+    secondaryText: 645f77
+    mediaRecordDot: a9aecc
+    mediaRecordControl:
+      button: a9aecc
+      micLevel: 1ea9aecc
+      activeIcon: ffffff
+  inputMediaPanel:
+    panelSeparator: bec2c6
+    panelIcon: 858e99
+    panelHighlightedIconBg: 33858e99
+    stickersBg: e8ebf0
+    stickersSectionText: 9099a2
+    stickersSearchBg: d9dbe1
+    stickersSearchPlaceholder: 8e8e93
+    stickersSearchPrimary: 000000
+    stickersSearchControl: 8e8e93
+    gifsBg: ffffff
+  inputButtonPanel:
+    panelBg: dee2e6
+    panelSeparator: bec2c6
+    buttonBg: ffffff
+    buttonStroke: c3c7c9
+    buttonHighlightedBg: a8b3c0
+    buttonHighlightedStroke: c3c7c9
+    buttonText: 000000
+  historyNav:
+    bg: 736a81
+    stroke: 736a81
+    fg: 36374f
+    badgeBg: a9aecc
+    badgeStroke: a9aecc
+    badgeText: ffffff
+actionSheet:
+  dim: 66000000
+  bgType: light
+  opaqueItemBg: ffffff
+  itemBg: ddffffff
+  opaqueItemHighlightedBg: e5e5e5
+  itemHighlightedBg: b2e5e5e5
+  opaqueItemSeparator: e5e5e5
+  standardActionText: a9aecc
+  destructiveActionText: ff3b30
+  disabledActionText: b3b3b3
+  primaryText: 000000
+  secondaryText: 5e5e5e
+  controlAccent: a9aecc
+  inputBg: e9e9e9
+  inputHollowBg: ffffff
+  inputBorder: e4e4e6
+  inputPlaceholder: 818086
+  inputText: 000000
+  inputClearButton: 7b7b81
+  checkContent: ffffff
+contextMenu:
+  dim: 99000000
+  background: c6252525
+  itemSeparator: 26ffffff
+  sectionSeparator: 33000000
+  itemBg: 00000000
+  itemHighlightedBg: 26ffffff
+  primary: ffffff
+  secondary: ccffffff
+  destructive: eb5545
+notification:
+  bg: ffffff
+  primaryText: 000000
+  expanded:
+    bgType: light
+    navBar:
+      background: ffffff
+      primaryText: 000000
+      control: 7e8791
+      separator: b1b1b1
+chart:
+  labels: 7f252529
+  helperLines: 4c182d3b
+  strongLines: 4c182d3b
+  barStrongLines: 33252529
+  detailsText: 6d6d72
+  detailsArrow: c5c7cd
+  detailsView: f5f5fb
+  rangeViewFrame: cad4de
+  rangeViewMarker: ffffff
