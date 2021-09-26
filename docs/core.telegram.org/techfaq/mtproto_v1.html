@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="utf-8">
+    <title>FAQ for the Technically Inclined (MTProto v.1.0)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="This FAQ covers questions about the previous version of MTProto (v.1.0) that is now deprecated.
+For questions about encryption…">
+    <meta property="og:title" content="FAQ for the Technically Inclined (MTProto v.1.0)">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="This FAQ covers questions about the previous version of MTProto (v.1.0) that is now deprecated.
+For questions about encryption…">
+    <link rel="shortcut icon" href="/favicon.ico?4" type="image/x-icon" />
+
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+    
+    <link href="/css/telegram.css?212" rel="stylesheet" media="screen">
+    <style>
+    </style>
+  </head>
+  <body class="preload">
+    <div class="dev_page_wrap">
+      <div class="dev_page_head navbar navbar-static-top navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right hidden-xs"><li class="navbar-twitter"><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i><span> Twitter</span></a></li></ul>
+            <ul class="nav navbar-nav">
+              <li><a href="//telegram.org/">Home</a></li>
+<li class="hidden-xs"><a href="//telegram.org/faq">FAQ</a></li>
+<li class="hidden-xs"><a href="//telegram.org/apps">Apps</a></li>
+<li class=""><a href="/api">API</a></li>
+<li class=""><a href="/mtproto">Protocol</a></li>
+<li class=""><a href="/schema">Schema</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <div class="dev_page">
+          <div id="dev_page_content_wrap" class=" dev_faq_page">
+  <div class="dev_page_bread_crumbs"></div>
+  <h1 id="dev_page_title">FAQ for the Technically Inclined (MTProto v.1.0)</h1>
+  
+  <div id="dev_page_content"><blockquote>
+<p>This FAQ covers questions about the previous version of <a href="http://core.telegram.org/mtproto">MTProto</a> (v.1.0) that is now deprecated.<br>For questions about encryption used in up-to-date Telegram clients, kindly refer to <a href="http://core.telegram.org/techfaq">this document</a>.</p>
+</blockquote>
+<p><div class="dev_page_nav_wrap"></p>
+<ul>
+<li><a href="#q-how-is-mtproto-2-0-different-from-version-1-0">What&#39;s new in MTProto 2.0?</a></li>
+<li><a href="#q-why-did-you-use-sha-1-sha-1-is-broken">Why did you use SHA-1?</a></li>
+<li><a href="#what-about-ind-cca">What about IND-CCA?</a></li>
+<li><a href="#hash-collisions-for-diffie-hellman-keys">Hash collisions for Diffie-Hellman keys</a></li>
+</ul>
+<p></div></p>
+<hr>
+<h4><a class="anchor" name="q-how-is-mtproto-2-0-different-from-version-1-0" href="#q-how-is-mtproto-2-0-different-from-version-1-0"><i class="anchor-icon"></i></a>Q: How is MTProto 2.0 different from version 1.0?</h4>
+<p>The principal differences from version 1.0 (<a href="/mtproto/description_v1">described here</a> and <a href="/api/end-to-end_v1">here</a> for reference) are as follows:</p>
+<ul>
+<li>SHA-256 is used instead of SHA-1;</li>
+<li>Padding bytes are involved in the computation of <strong>msg_key</strong>;</li>
+<li><strong>msg_key</strong> depends not only on the message to be encrypted, but on a portion of <strong>auth_key</strong> as well;</li>
+<li>12..1024 padding bytes are used instead of 0..15 padding bytes in v.1.0.</li>
+</ul>
+<h4><a class="anchor" name="q-why-did-you-use-sha-1-sha-1-is-broken" href="#q-why-did-you-use-sha-1-sha-1-is-broken"><i class="anchor-icon"></i></a>Q: Why did you use SHA-1? SHA-1 is broken!</h4>
+<blockquote>
+<p>The <a href="/techfaq#q-how-does-server-client-encryption-work-in-mtproto">current version of MTProto</a> uses SHA-256 in all the critical locations. MTProto 1.0 used to rely on SHA-1.</p>
+</blockquote>
+<p>Even though it is possible for a well-funded attacker to find collisions in SHA-1, crafting a collision alone did not break the MTProto encryption scheme due to the way SHA-1 was used in the protocol. We did not use SHA-1 in any areas where collisions are important, such as digital signatures or file identification.</p>
+<p>We used SHA as a component in the KDF and for a security check after transmission. Even if an attacker could create messages with a <em>chosen</em> SHA-1 (a far greater achievement than merely finding a collision), it would not give them any advantage. This is because we used the SHA-1 of the <em>plaintext</em> <a href="#note-on-plaintext">*</a>, while MTProto passed the <em>ciphertext</em> encrypted with a key unknown to the attacker. In order to threaten this setup, one would need not a collision in SHA-1(ciphertext), but a collision in <strong>SHA-1(AES_Decrypt(key_unknown_to_attacker, ciphertext))</strong>.</p>
+<h6><a class="anchor" name="note-on-39plaintext-39" href="#note-on-39plaintext-39"><i class="anchor-icon"></i></a>Note on &#39;plaintext&#39;:</h6>
+<p>It is important that the <em>plaintext</em> always contains message length, server salt, session_id and <a href="/techfaq#note-1">other data</a> not known to the attacker. It is crucial that AES decryption keys depend both on msg_key, and on auth_key, known only to the parties involved in the exchange.</p>
+<h4><a class="anchor" name="what-about-ind-cca" href="#what-about-ind-cca"><i class="anchor-icon"></i></a>What about IND-CCA?</h4>
+<blockquote>
+<p>The <a href="/techfaq#q-how-does-server-client-encryption-work-in-mtproto">current version of MTProto</a> satisfies the criteria for IND-CCA. MTProto 1.0 used to deviate from this property without any effect on message security.</p>
+</blockquote>
+<p>Properties like IND-CCA are convenient for theoretical definitions and scientific inquiry, but they are not directly related to the actual security of communication. There are cases when IND-CCA compliance can be critical, but in the case of MTProto (1.0) the deviation from this property was a minor issue and did not affect message security. Namely, under certain circumstances a ciphertext could be modified so that it would have been accepted and decrypted to the same plaintext as the original unmodified ciphertext. It was impossible for the attacker to tamper with or decipher the plaintext.</p>
+<p>The gist, for non-technical readers, is this: Under certain circumstances somebody could take an encrypted message after it was sent (without knowing what was inside), change some symbols in the ciphertext (without being able to alter the actual message inside), and pass it on to you. After decryption, you would receive the same message that was sent and only you and the sender would know what was in it.</p>
+<p>To put this case into familiar terms:</p>
+<blockquote>
+<p>A postal worker could write &#39;Haha&#39; (using invisible ink!) on the outside of a sealed package that he delivers to you. It didn&#39;t stop the package from being delivered, it doesn&#39;t allow them to change the contents of the package, and it doesn&#39;t allow them to see what was inside.</p>
+</blockquote>
+<h4><a class="anchor" name="hash-collisions-for-diffie-hellman-keys" href="#hash-collisions-for-diffie-hellman-keys"><i class="anchor-icon"></i></a>Hash collisions for Diffie-Hellman Keys</h4>
+<p>Earlier versions of Telegram used a 128-bit fingerprint to create the key visualization. It was theoretically possible to spoof it, provided a man-in-the-middle attacker was prepared to spend <a href="/articles/DH_Hash_Collision"><strong>hundreds of billions of dollars</strong></a> to spoof <strong>one</strong> secret chat (even using GPUs or ASICs). It would&#39;ve also taken such a secret chat an entire month to be created instead of mere seconds, which would&#39;ve certainly been hard to ignore.</p>
+<p>Currently, the fingerprint uses an additional 160 bits from the SHA-256 of the key, yielding a total of 288 fingerprint bits, which makes the already infeasible attacks completely impossible.</p>
+</div>
+  
+</div>
+          
+        </div>
+      </div>
+      <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>Telegram</h5>
+      <div class="footer_telegram_description"></div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="//telegram.org/faq">About</a></h5>
+      <ul>
+        <li><a href="//telegram.org/faq">FAQ</a></li>
+        <li><a href="//telegram.org/blog">Blog</a></li>
+        <li><a href="//telegram.org/jobs">Jobs</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/apps#mobile-apps">Mobile Apps</a></h5>
+      <ul>
+        <li><a href="//telegram.org/dl/ios">iPhone/iPad</a></li>
+        <li><a href="//telegram.org/dl/android">Android</a></li>
+        <li><a href="//telegram.org/dl/wp">Windows Phone</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/apps#desktop-apps">Desktop Apps</a></h5>
+      <ul>
+        <li><a href="//desktop.telegram.org/">PC/Mac/Linux</a></li>
+        <li><a href="//macos.telegram.org/">macOS</a></li>
+        <li><a href="//telegram.org/dl/web">Web-browser</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="/">Platform</a></h5>
+      <ul>
+        <li><a href="/api">API</a></li>
+        <li><a href="//translations.telegram.org/">Translations</a></li>
+        <li><a href="//instantview.telegram.org/">Instant View</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="//telegram.org/faq">About</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/blog">Blog</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/apps">Apps</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/">Platform</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">Twitter</a></h5>
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="/js/main.js?42"></script>
+    
+    <script>backToTopInit("Go up");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 10.37ms -->

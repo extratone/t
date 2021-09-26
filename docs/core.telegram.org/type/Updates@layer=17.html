@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="utf-8">
+    <title>Updates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="description" content="Object which is perceived by the client without a call on its part when an event occurs.">
+    <meta property="og:title" content="Updates">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Object which is perceived by the client without a call on its part when an event occurs.">
+    <link rel="shortcut icon" href="/favicon.ico?4" type="image/x-icon" />
+
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+    
+    <link href="/css/telegram.css?212" rel="stylesheet" media="screen">
+    <style>
+    </style>
+  </head>
+  <body class="preload">
+    <div class="dev_page_wrap">
+      <div class="dev_page_head navbar navbar-static-top navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right hidden-xs"><li class="navbar-twitter"><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i><span> Twitter</span></a></li></ul>
+            <ul class="nav navbar-nav">
+              <li><a href="//telegram.org/">Home</a></li>
+<li class="hidden-xs"><a href="//telegram.org/faq">FAQ</a></li>
+<li class="hidden-xs"><a href="//telegram.org/apps">Apps</a></li>
+<li class=""><a href="/api">API</a></li>
+<li class=""><a href="/mtproto">Protocol</a></li>
+<li class="active"><a href="/schema">Schema</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <div class="dev_page">
+          <div id="dev_page_content_wrap" class=" ">
+  <div class="dev_page_bread_crumbs"><ul class="breadcrumb clearfix"><li><a  href="/api" >API</a></li><i class="icon icon-breadcrumb-divider"></i><li><a  href="/schema" >TL-schema</a></li><i class="icon icon-breadcrumb-divider"></i><li><a  href="/type/Updates" >Updates</a></li></ul></div>
+  <h1 id="dev_page_title">Updates</h1>
+  
+  <div id="dev_page_content"><p>Object which is perceived by the client without a call on its part when an event occurs.</p>
+<p><div class="clearfix">
+  <ul class="dev_layer_select slightly-pull-right nav nav-pills">
+    <li class="dropdown">
+      <a class="dropdown-toggle"  onclick="return dropdownClick(this, event)" href="#">Layer 17 <b class="caret"></b></a>
+      <ul class="dropdown-menu">
+        <li><a href="?layer=1">1 &ndash; Base layer</a></li><li><a href="?layer=2">2 &ndash; New userpic notifications</a></li><li><a href="?layer=3">3 &ndash; Send message can trigger link change</a></li><li><a href="?layer=4">4 &ndash; Check-in chats</a></li><li><a href="?layer=5">5 &ndash; Localized SMS, localized notifications</a></li><li><a href="?layer=6">6 &ndash; Foursquare integration</a></li><li><a href="?layer=7">7 &ndash; Added wallPaperSolid</a></li><li><a href="?layer=8">8 &ndash; Added end-to-end encryption</a></li><li><a href="?layer=9">9 &ndash; Improved big files upload perfomance</a></li><li><a href="?layer=10">10 &ndash; Improved chat participants updates</a></li><li><a href="?layer=11">11 &ndash;  Improved secret chats</a></li><li><a href="?layer=12">12 &ndash; New dynamic support</a></li><li><a href="?layer=13">13 &ndash; Audio, video MIME; contacts import retry; new secret actions</a></li><li><a href="?layer=14">14 &ndash; Notify settings sync, blacklist sync</a></li><li><a href="?layer=15">15 &ndash; Modified getHistory offset behaviour</a></li><li><a href="?layer=16">16 &ndash; Split sendCode into 2 parts</a></li><li><a href="?layer=17"><strong>17 &ndash; Added custom typing, introduced message flags</strong></a></li><li><a href="?layer=18">18 &ndash; Added usernames</a></li><li><a href="?layer=23">23 &ndash;  Stickers for secret chats</a></li><li><a href="?layer=105">105 &ndash;  Scheduled messages, Cloud themes</a></li><li><a href="?layer=108">108 &ndash; Login with QR code</a></li><li><a href="?layer=109">109 &ndash;  Polls v2</a></li><li><a href="?layer=110">110 &ndash;  People Nearby 2.0, Bank card entity</a></li><li><a href="?layer=111">111 &ndash;  Folders, Broadcast Stats</a></li><li><a href="?layer=112">112 &ndash;  Old featured stickers, generic dice, poll timer, poll solution</a></li><li><a href="?layer=113">113 &ndash;  PSA</a></li><li><a href="?layer=114">114 &ndash;  Video thumbs for GIFs</a></li><li><a href="?layer=115">115 &ndash;  Peek Channel Invite</a></li><li><a href="?layer=116">116 &ndash;  Group Stats, Profile Videos</a></li><li><a href="?layer=117">117 &ndash;  WebRTC Phone Calls</a></li><li><a href="?layer=118">118 &ndash;  Callback with 2FA, Countries list</a></li><li><a href="?layer=119">119 &ndash;  Comments in channels, Threads, Anonymous Admins</a></li><li><a href="?layer=120">120 &ndash;  Multipins, Message Stats, GeoLive v2</a></li><li><a href="?layer=121">121 &ndash;  SVG-based Outlines for Stickers</a></li>
+        <li class="divider"></li>
+        <li><a href="/api/layers">More...</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<pre class="page_scheme"><code><a  href="/constructor/updatesTooLong" >updatesTooLong</a>#e317af7e = <a  href="/type/Updates"  class="current_page_link" >Updates</a>;
+<a  href="/constructor/updateShortMessage" >updateShortMessage</a>#d3f45784 id:<a  href="/type/int" >int</a> from_id:<a  href="/type/int" >int</a> message:<a  href="/type/string" >string</a> pts:<a  href="/type/int" >int</a> date:<a  href="/type/int" >int</a> seq:<a  href="/type/int" >int</a> = <a  href="/type/Updates"  class="current_page_link" >Updates</a>;
+<a  href="/constructor/updateShortChatMessage" >updateShortChatMessage</a>#2b2fbd4e id:<a  href="/type/int" >int</a> from_id:<a  href="/type/int" >int</a> chat_id:<a  href="/type/int" >int</a> message:<a  href="/type/string" >string</a> pts:<a  href="/type/int" >int</a> date:<a  href="/type/int" >int</a> seq:<a  href="/type/int" >int</a> = <a  href="/type/Updates"  class="current_page_link" >Updates</a>;
+<a  href="/constructor/updateShort" >updateShort</a>#78d4dec1 update:<a  href="/type/Update" >Update</a> date:<a  href="/type/int" >int</a> = <a  href="/type/Updates"  class="current_page_link" >Updates</a>;
+<a  href="/constructor/updatesCombined" >updatesCombined</a>#725b04c3 updates:<a  href="/type/Vector%20t" >Vector</a>&lt;<a  href="/type/Update" >Update</a>&gt; users:<a  href="/type/Vector%20t" >Vector</a>&lt;<a  href="/type/User" >User</a>&gt; chats:<a  href="/type/Vector%20t" >Vector</a>&lt;<a  href="/type/Chat" >Chat</a>&gt; date:<a  href="/type/int" >int</a> seq_start:<a  href="/type/int" >int</a> seq:<a  href="/type/int" >int</a> = <a  href="/type/Updates"  class="current_page_link" >Updates</a>;
+<a  href="/constructor/updates" >updates</a>#74ae4240 updates:<a  href="/type/Vector%20t" >Vector</a>&lt;<a  href="/type/Update" >Update</a>&gt; users:<a  href="/type/Vector%20t" >Vector</a>&lt;<a  href="/type/User" >User</a>&gt; chats:<a  href="/type/Vector%20t" >Vector</a>&lt;<a  href="/type/Chat" >Chat</a>&gt; date:<a  href="/type/int" >int</a> seq:<a  href="/type/int" >int</a> = <a  href="/type/Updates"  class="current_page_link" >Updates</a>;</code></pre></p>
+<h3><a class="anchor" href="#constructors" id="constructors" name="constructors"><i class="anchor-icon"></i></a>Constructors</h3>
+<table class="table">
+<thead>
+<tr>
+<th>Constructor</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/constructor/updatesTooLong">updatesTooLong</a></td>
+<td>Too many updates, it is necessary to execute <a href="/method/updates.getDifference">updates.getDifference</a>.</td>
+</tr>
+<tr>
+<td><a href="/constructor/updateShortMessage">updateShortMessage</a></td>
+<td>Info about a message sent to (received from) another user</td>
+</tr>
+<tr>
+<td><a href="/constructor/updateShortChatMessage">updateShortChatMessage</a></td>
+<td>Shortened constructor containing info on one new incoming text message from a chat</td>
+</tr>
+<tr>
+<td><a href="/constructor/updateShort">updateShort</a></td>
+<td>Shortened constructor containing info on one update not requiring auxiliary data</td>
+</tr>
+<tr>
+<td><a href="/constructor/updatesCombined">updatesCombined</a></td>
+<td>Constructor for a group of updates.</td>
+</tr>
+<tr>
+<td><a href="/constructor/updates">updates</a></td>
+<td>Full constructor of updates</td>
+</tr>
+<tr>
+<td><a href="/constructor/updateShortSentMessage">updateShortSentMessage</a></td>
+<td>Shortened constructor containing info on one outgoing message to a contact (the destination chat has to be extracted from the method call that returned this object).</td>
+</tr>
+</tbody>
+</table>
+<h3><a class="anchor" href="#methods" id="methods" name="methods"><i class="anchor-icon"></i></a>Methods</h3>
+<table class="table">
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/method/contacts.deleteContacts">contacts.deleteContacts</a></td>
+<td>Deletes several contacts from the list.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendMessage">messages.sendMessage</a></td>
+<td>Sends a message to a chat</td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendMedia">messages.sendMedia</a></td>
+<td>Send a media</td>
+</tr>
+<tr>
+<td><a href="/method/messages.forwardMessages">messages.forwardMessages</a></td>
+<td>Forwards messages by their IDs.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.editChatTitle">messages.editChatTitle</a></td>
+<td>Chanages chat name and sends a service message on it.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.editChatPhoto">messages.editChatPhoto</a></td>
+<td>Changes chat photo and sends a service message on it</td>
+</tr>
+<tr>
+<td><a href="/method/messages.addChatUser">messages.addChatUser</a></td>
+<td>Adds a user to a chat and sends a service message on it.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.deleteChatUser">messages.deleteChatUser</a></td>
+<td>Deletes a user from a chat and sends a service message on it.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.createChat">messages.createChat</a></td>
+<td>Creates a new chat.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.importChatInvite">messages.importChatInvite</a></td>
+<td>Import a chat invite and join a private chat/supergroup/channel</td>
+</tr>
+<tr>
+<td><a href="/method/messages.startBot">messages.startBot</a></td>
+<td>Start a conversation with a bot using a <a href="/bots#deep-linking">deep linking parameter</a></td>
+</tr>
+<tr>
+<td><a href="/method/help.getAppChangelog">help.getAppChangelog</a></td>
+<td>Get changelog of current app</td>
+</tr>
+<tr>
+<td><a href="/method/channels.createChannel">channels.createChannel</a></td>
+<td>Create a <a href="/api/channel">supergroup/channel</a>.</td>
+</tr>
+<tr>
+<td><a href="/method/channels.editAdmin">channels.editAdmin</a></td>
+<td>Modify the admin rights of a user in a <a href="/api/channel">supergroup/channel</a>.</td>
+</tr>
+<tr>
+<td><a href="/method/channels.editTitle">channels.editTitle</a></td>
+<td>Edit the name of a <a href="/api/channel">channel/supergroup</a></td>
+</tr>
+<tr>
+<td><a href="/method/channels.editPhoto">channels.editPhoto</a></td>
+<td>Change the photo of a <a href="/api/channel">channel/supergroup</a></td>
+</tr>
+<tr>
+<td><a href="/method/channels.joinChannel">channels.joinChannel</a></td>
+<td>Join a channel/supergroup</td>
+</tr>
+<tr>
+<td><a href="/method/channels.leaveChannel">channels.leaveChannel</a></td>
+<td>Leave a <a href="/api/channel">channel/supergroup</a></td>
+</tr>
+<tr>
+<td><a href="/method/channels.inviteToChannel">channels.inviteToChannel</a></td>
+<td>Invite users to a channel/supergroup</td>
+</tr>
+<tr>
+<td><a href="/method/channels.deleteChannel">channels.deleteChannel</a></td>
+<td>Delete a <a href="/api/channel">channel/supergroup</a></td>
+</tr>
+<tr>
+<td><a href="/method/messages.migrateChat">messages.migrateChat</a></td>
+<td>Turn a <a href="/api/channel">legacy group into a supergroup</a></td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendInlineBotResult">messages.sendInlineBotResult</a></td>
+<td>Send a result obtained using <a href="/method/messages.getInlineBotResults">messages.getInlineBotResults</a>.</td>
+</tr>
+<tr>
+<td><a href="/method/channels.toggleSignatures">channels.toggleSignatures</a></td>
+<td>Enable/disable message signatures in channels</td>
+</tr>
+<tr>
+<td><a href="/method/messages.editMessage">messages.editMessage</a></td>
+<td>Edit message</td>
+</tr>
+<tr>
+<td><a href="/method/messages.getAllDrafts">messages.getAllDrafts</a></td>
+<td>Save get all message <a href="/api/drafts">drafts</a>.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.setGameScore">messages.setGameScore</a></td>
+<td>Use this method to set the score of the specified user in a game sent as a normal message (bots only).</td>
+</tr>
+<tr>
+<td><a href="/method/phone.discardCall">phone.discardCall</a></td>
+<td>Refuse or end running call</td>
+</tr>
+<tr>
+<td><a href="/method/phone.setCallRating">phone.setCallRating</a></td>
+<td>Rate a call</td>
+</tr>
+<tr>
+<td><a href="/method/channels.editBanned">channels.editBanned</a></td>
+<td>Ban/unban/kick a user in a <a href="/api/channel">supergroup/channel</a>.</td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendScreenshotNotification">messages.sendScreenshotNotification</a></td>
+<td>Notify the other user in a private chat that a screenshot of the chat was taken</td>
+</tr>
+<tr>
+<td><a href="/method/channels.togglePreHistoryHidden">channels.togglePreHistoryHidden</a></td>
+<td>Hide/unhide message history for new channel/supergroup users</td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendMultiMedia">messages.sendMultiMedia</a></td>
+<td>Send an album of media</td>
+</tr>
+<tr>
+<td><a href="/method/messages.updatePinnedMessage">messages.updatePinnedMessage</a></td>
+<td>Pin a message</td>
+</tr>
+<tr>
+<td><a href="/method/account.getNotifyExceptions">account.getNotifyExceptions</a></td>
+<td>Returns list of chats with non-default notification settings</td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendVote">messages.sendVote</a></td>
+<td>Vote in a <a href="/constructor/poll">poll</a></td>
+</tr>
+<tr>
+<td><a href="/method/messages.getPollResults">messages.getPollResults</a></td>
+<td>Get poll results</td>
+</tr>
+<tr>
+<td><a href="/method/messages.editChatDefaultBannedRights">messages.editChatDefaultBannedRights</a></td>
+<td>Edit the default banned rights of a <a href="/api/channel">channel/supergroup/group</a>.</td>
+</tr>
+<tr>
+<td><a href="/method/folders.editPeerFolders">folders.editPeerFolders</a></td>
+<td>Edit peers in folder</td>
+</tr>
+<tr>
+<td><a href="/method/folders.deleteFolder">folders.deleteFolder</a></td>
+<td>Delete a folder</td>
+</tr>
+<tr>
+<td><a href="/method/contacts.addContact">contacts.addContact</a></td>
+<td>Add an existing telegram user as contact</td>
+</tr>
+<tr>
+<td><a href="/method/contacts.acceptContact">contacts.acceptContact</a></td>
+<td>If the <a href="/constructor/peerSettings">peer settings</a> of a new user allow us to add him as contact, add that user as contact</td>
+</tr>
+<tr>
+<td><a href="/method/channels.editCreator">channels.editCreator</a></td>
+<td>Transfer channel ownership</td>
+</tr>
+<tr>
+<td><a href="/method/contacts.getLocated">contacts.getLocated</a></td>
+<td>Get contacts near you</td>
+</tr>
+<tr>
+<td><a href="/method/channels.toggleSlowMode">channels.toggleSlowMode</a></td>
+<td>Toggle supergroup slow mode: if enabled, users will only be able to send one message every <code>seconds</code> seconds</td>
+</tr>
+<tr>
+<td><a href="/method/messages.sendScheduledMessages">messages.sendScheduledMessages</a></td>
+<td>Send scheduled messages</td>
+</tr>
+<tr>
+<td><a href="/method/messages.deleteScheduledMessages">messages.deleteScheduledMessages</a></td>
+<td>Delete scheduled messages</td>
+</tr>
+<tr>
+<td><a href="/method/contacts.blockFromReplies">contacts.blockFromReplies</a></td>
+<td>Stop getting notifications about <a href="/api/threads">thread replies</a> of a certain user in <code>@replies</code></td>
+</tr>
+</tbody>
+</table></div>
+  
+</div>
+          
+        </div>
+      </div>
+      <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>Telegram</h5>
+      <div class="footer_telegram_description"></div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="//telegram.org/faq">About</a></h5>
+      <ul>
+        <li><a href="//telegram.org/faq">FAQ</a></li>
+        <li><a href="//telegram.org/blog">Blog</a></li>
+        <li><a href="//telegram.org/jobs">Jobs</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/apps#mobile-apps">Mobile Apps</a></h5>
+      <ul>
+        <li><a href="//telegram.org/dl/ios">iPhone/iPad</a></li>
+        <li><a href="//telegram.org/dl/android">Android</a></li>
+        <li><a href="//telegram.org/dl/wp">Windows Phone</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/apps#desktop-apps">Desktop Apps</a></h5>
+      <ul>
+        <li><a href="//desktop.telegram.org/">PC/Mac/Linux</a></li>
+        <li><a href="//macos.telegram.org/">macOS</a></li>
+        <li><a href="//telegram.org/dl/web">Web-browser</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="/">Platform</a></h5>
+      <ul>
+        <li><a href="/api">API</a></li>
+        <li><a href="//translations.telegram.org/">Translations</a></li>
+        <li><a href="//instantview.telegram.org/">Instant View</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="//telegram.org/faq">About</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/blog">Blog</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="//telegram.org/apps">Apps</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="/">Platform</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="https://twitter.com/telegram" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)">Twitter</a></h5>
+    </div>
+  </div>
+</div>
+    </div>
+    <script src="/js/main.js?42"></script>
+    
+    <script>backToTopInit("Go up");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 12.39ms -->
