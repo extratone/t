@@ -1,0 +1,261 @@
+{"app_name":"App","timestamp":"2021-09-22 12:38:47.00 -0500","app_version":"1.0.4","slice_uuid":"20b648a0-f862-343b-8d61-5cb3b078e16a","adam_id":"1557175442","build_version":"21","platform":2,"bundleID":"md.obsidian","share_with_app_devs":1,"is_first_party":0,"bug_type":"309","os_version":"iPhone OS 15.0 (19A346)","incident_id":"CDB5DCA9-4F6A-48F4-85B6-7E896D6C6ABD","name":"App"}
+{
+  "uptime" : 9000,
+  "procLaunch" : "2021-09-22 12:34:34.1988 -0500",
+  "procRole" : "Foreground",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "iPhone13,4",
+  "procStartAbsTime" : 210613215940,
+  "coalitionID" : 1311,
+  "osVersion" : {
+    "isEmbedded" : true,
+    "train" : "iPhone OS 15.0",
+    "releaseType" : "User",
+    "build" : "19A346"
+  },
+  "captureTime" : "2021-09-22 12:38:47.5437 -0500",
+  "incident" : "CDB5DCA9-4F6A-48F4-85B6-7E896D6C6ABD",
+  "bug_type" : "309",
+  "pid" : 1344,
+  "procExitAbsTime" : 216693351924,
+  "cpuType" : "ARM-64",
+  "procName" : "App",
+  "procPath" : "\/private\/var\/containers\/Bundle\/Application\/F4D43C53-D96A-4472-A673-B36F4DCE4E8D\/App.app\/App",
+  "bundleInfo" : {"CFBundleShortVersionString":"1.0.4","CFBundleVersion":"21","CFBundleIdentifier":"md.obsidian","DTAppStoreToolsBuild":"12E506"},
+  "storeInfo" : {"storeCohortMetadata":"10|date=1632267000000&sf=143441&rdom=obsidian.md&rapp=com.apple.mobilesafari&pgtp=Software&pgid=1557175442&prpg=Genre_179183&ctxt=Today&lngid=1","itemID":"1557175442","deviceIdentifierForVendor":"3963D281-5A9E-4198-9FB4-EC7190EBA608","softwareVersionExternalIdentifier":"843484761","thirdParty":true,"applicationVariant":"1:iPhone13,4:14"},
+  "parentProc" : "launchd",
+  "parentPid" : 1,
+  "coalitionName" : "md.obsidian",
+  "crashReporterKey" : "58692d8e3ab005a8f4fa6e1c5b64ff9d7122afe2",
+  "basebandVersion" : "2.09.10",
+  "isCorpse" : 1,
+  "exception" : {"codes":"0x0000000000000000, 0x0000000000000000","rawCodes":[0,0],"type":"EXC_CRASH","signal":"SIGKILL"},
+  "termination" : {"flags":6,"code":2343432205,"namespace":"FRONTBOARD","reasons":["<RBSTerminateContext| domain:10 code:0x8BADF00D explanation:[application<md.obsidian>:1344] failed to terminate gracefully after 5.0s","ProcessVisibility: Unknown","ProcessState: Running","WatchdogEvent: process-exit","WatchdogVisibility: Background","WatchdogCPUStatistics: (","\"Elapsed total CPU time (seconds): 12.540 (user 7.430, system 5.110), 40% CPU\",","\"Elapsed application CPU time (seconds): 0.248, 1% CPU\"",") reportType:CrashLog maxTerminationResistance:Interactive>"]},
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":96344,"threadState":{"x":[{"value":268451845},{"value":117457422},{"value":0},{"value":16384},{"value":2563},{"value":0},{"value":84287},{"value":10779875808},{"value":4294966207},{"value":117456910},{"value":16399},{"value":10773896664},{"value":16384},{"value":25769803776},{"value":256},{"value":171798691840},{"value":18446744073709551585},{"value":7994121504},{"value":4367171689},{"value":84287},{"value":0},{"value":2563},{"value":16384},{"value":6104530880},{"value":117457422},{"value":0},{"value":117457422},{"value":268451844},{"value":4364977760}],"flavor":"ARM_THREAD_STATE64","lr":{"value":7404907516},"cpsr":{"value":536870912},"fp":{"value":6104530864},"sp":{"value":6104530784},"esr":{"value":1442840704,"description":" Address size fault"},"pc":{"value":7404905828,"matchesCrashFrame":1},"far":{"value":4426711040}},"queue":"com.apple.main-thread","frames":[{"imageOffset":5476,"imageIndex":0},{"imageOffset":7164,"imageIndex":0},{"imageOffset":123800,"imageIndex":1},{"imageOffset":124744,"imageIndex":1},{"imageOffset":60316,"imageIndex":2},{"imageOffset":260932,"imageIndex":3},{"imageOffset":285156,"imageIndex":3},{"imageOffset":517908,"imageIndex":3},{"imageOffset":602840,"imageIndex":3},{"imageOffset":546560,"imageIndex":4},{"imageOffset":1274600,"imageIndex":3},{"imageOffset":94792,"imageIndex":5},{"imageOffset":68512,"imageIndex":5},{"imageOffset":175848,"imageIndex":6},{"imageOffset":813980,"imageIndex":6},{"imageOffset":630612,"imageIndex":6},{"imageOffset":265556,"imageIndex":6},{"imageOffset":110632,"imageIndex":3},{"imageOffset":175848,"imageIndex":6},{"imageOffset":813980,"imageIndex":6},{"imageOffset":630612,"imageIndex":6},{"imageOffset":265556,"imageIndex":6},{"imageOffset":110632,"imageIndex":3},{"imageOffset":421616,"imageIndex":7},{"imageOffset":425732,"imageIndex":7},{"imageOffset":426584,"imageIndex":7},{"imageOffset":469300,"imageIndex":6},{"imageOffset":473136,"imageIndex":6},{"imageOffset":48016,"imageIndex":6},{"imageOffset":127944,"imageIndex":6},{"imageOffset":5004,"imageIndex":8},{"imageOffset":5353660,"imageIndex":9},{"imageOffset":2722792,"imageIndex":9},{"imageOffset":21828,"imageIndex":10},{"imageOffset":104996,"imageIndex":11}]},{"id":96375,"name":"com.apple.uikit.eventfetch-thread","frames":[{"imageOffset":5476,"imageIndex":0},{"imageOffset":7164,"imageIndex":0},{"imageOffset":30360,"imageIndex":6},{"imageOffset":47500,"imageIndex":6},{"imageOffset":127944,"imageIndex":6},{"imageOffset":101716,"imageIndex":3},{"imageOffset":370344,"imageIndex":3},{"imageOffset":4800636,"imageIndex":9},{"imageOffset":428380,"imageIndex":3},{"imageOffset":6752,"imageIndex":12},{"imageOffset":3932,"imageIndex":12}]},{"id":96381,"name":"JavaScriptCore bmalloc scavenger","frames":[{"imageOffset":8176,"imageIndex":0},{"imageOffset":33396,"imageIndex":12},{"imageOffset":40412,"imageIndex":13},{"imageOffset":18479048,"imageIndex":14},{"imageOffset":18497432,"imageIndex":14},{"imageOffset":18496312,"imageIndex":14},{"imageOffset":18501620,"imageIndex":14},{"imageOffset":6752,"imageIndex":12},{"imageOffset":3932,"imageIndex":12}]},{"id":96998,"name":"AVAudioSession Notify Thread","frames":[{"imageOffset":5476,"imageIndex":0},{"imageOffset":7164,"imageIndex":0},{"imageOffset":30360,"imageIndex":6},{"imageOffset":47500,"imageIndex":6},{"imageOffset":127944,"imageIndex":6},{"imageOffset":25352,"imageIndex":15},{"imageOffset":64868,"imageIndex":15},{"imageOffset":6752,"imageIndex":12},{"imageOffset":3932,"imageIndex":12}]},{"id":97303,"frames":[{"imageOffset":3912,"imageIndex":12}]},{"id":97774,"frames":[{"imageOffset":3912,"imageIndex":12}]},{"id":97790,"frames":[{"imageOffset":3912,"imageIndex":12}]},{"id":97800,"frames":[{"imageOffset":3912,"imageIndex":12}]}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 7404900352,
+    "size" : 212992,
+    "uuid" : "d2476f74-d204-348d-8d38-6165d0485c7c",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6484422656,
+    "size" : 286720,
+    "uuid" : "959cd6e4-0ce7-3022-b73c-8b36f79f4745",
+    "path" : "\/usr\/lib\/system\/libdispatch.dylib",
+    "name" : "libdispatch.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 8371728384,
+    "size" : 229376,
+    "uuid" : "e8a60051-0c68-35ae-aefd-9d97cc7f2696",
+    "path" : "\/usr\/lib\/system\/libxpc.dylib",
+    "name" : "libxpc.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6512873472,
+    "size" : 3166208,
+    "uuid" : "efbca2ff-8b8c-3227-abbc-154ba851d23c",
+    "path" : "\/System\/Library\/Frameworks\/Foundation.framework\/Foundation",
+    "name" : "Foundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6909337600,
+    "size" : 1576960,
+    "uuid" : "09e3eeb8-519c-3b87-b8c3-ee8cdfe4bc9d",
+    "path" : "\/System\/Library\/Frameworks\/FileProvider.framework\/FileProvider",
+    "name" : "FileProvider"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4366401536,
+    "size" : 114688,
+    "uuid" : "72cff7dd-aaf3-3f21-a0ae-a6d5871f72fc",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/F4D43C53-D96A-4472-A673-B36F4DCE4E8D\/App.app\/Frameworks\/CapacitorFilesystem.framework\/CapacitorFilesystem",
+    "name" : "CapacitorFilesystem"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6487535616,
+    "size" : 4538368,
+    "uuid" : "6174789a-e88c-3f5c-ba39-de2e9edc0750",
+    "path" : "\/System\/Library\/Frameworks\/CoreFoundation.framework\/CoreFoundation",
+    "name" : "CoreFoundation"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6885765120,
+    "size" : 663552,
+    "uuid" : "4d74a084-623d-3dc9-b598-43528f0146ed",
+    "path" : "\/System\/Library\/PrivateFrameworks\/CloudDocs.framework\/CloudDocs",
+    "name" : "CloudDocs"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6949101568,
+    "size" : 36864,
+    "uuid" : "0f7424f6-bde5-311a-a3fa-c0e0c4c28d72",
+    "path" : "\/System\/Library\/PrivateFrameworks\/GraphicsServices.framework\/GraphicsServices",
+    "name" : "GraphicsServices"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6525980672,
+    "size" : 25702400,
+    "uuid" : "0e2d8679-d5f1-3c03-9010-7f6ce3662789",
+    "path" : "\/System\/Library\/PrivateFrameworks\/UIKitCore.framework\/UIKitCore",
+    "name" : "UIKitCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4362321920,
+    "size" : 32768,
+    "uuid" : "20b648a0-f862-343b-8d61-5cb3b078e16a",
+    "path" : "\/private\/var\/containers\/Bundle\/Application\/F4D43C53-D96A-4472-A673-B36F4DCE4E8D\/App.app\/App",
+    "name" : "App"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 4364566528,
+    "size" : 360448,
+    "uuid" : "d48c31ee-061f-370b-a6f7-8391a1b53ed8",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 8371617792,
+    "size" : 49152,
+    "uuid" : "bc1ce0c6-a9f2-396b-9afb-623d3acd5881",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6896758784,
+    "size" : 409600,
+    "uuid" : "ad83bb4e-cfd6-3d39-a9e2-b8e115bef247",
+    "path" : "\/usr\/lib\/libc++.1.dylib",
+    "name" : "libc++.1.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6671343616,
+    "size" : 19582976,
+    "uuid" : "3993ffc4-46eb-3e7f-a3dc-814e1863b585",
+    "path" : "\/System\/Library\/Frameworks\/JavaScriptCore.framework\/JavaScriptCore",
+    "name" : "JavaScriptCore"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 6642200576,
+    "size" : 172032,
+    "uuid" : "abd54d35-6669-37df-90b9-22ddf1183098",
+    "path" : "\/System\/Library\/PrivateFrameworks\/AudioSession.framework\/AudioSession",
+    "name" : "AudioSession"
+  }
+],
+  "sharedCache" : {
+  "base" : 6484099072,
+  "size" : 2462400512,
+  "uuid" : "1c063ed4-5a2e-34cf-bfe1-9bed616f4f1d"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=730.3M resident=0K(0%) swapped_out_or_unallocated=730.3M(100%)\nWritable regions: Total=596.5M written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=596.5M(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nColorSync                           64K        4 \nCoreAnimation                       16K        1 \nFoundation                          16K        1 \nKernel Alloc Once                   32K        1 \nMALLOC                           583.4M       74 \nMALLOC guard page                  128K        8 \nSTACK GUARD                        128K        8 \nStack                             4816K        8 \nVM_ALLOCATE                        416K        6 \nWebKit Malloc                     7520K       17 \n__AUTH                            3755K      432 \n__AUTH_CONST                      20.8M      586 \n__DATA                            14.1M      599 \n__DATA_CONST                      21.9M      610 \n__DATA_DIRTY                      2417K      481 \n__FONT_DATA                          4K        1 \n__LINKEDIT                       185.6M       33 \n__OBJC_CONST                      5317K      407 \n__OBJC_RO                         90.7M        1 \n__OBJC_RW                         3392K        1 \n__TEXT                           544.7M      630 \n__UNICODE                          588K        1 \ndyld private memory               1376K       23 \nmapped file                      158.1M        9 \nshared memory                       48K        3 \n===========                     =======  ======= \nTOTAL                              1.6G     3946 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.main-thread"
+  }
+},
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "601d9415f79519000ccd4b69",
+      "factorPackIds" : {
+        "SIRI_TEXT_TO_SPEECH" : "61410f325ee1b43be2b81c68"
+      },
+      "deploymentId" : 240000209
+    },
+    {
+      "rolloutId" : "602ad4dac86151000cf27e46",
+      "factorPackIds" : {
+        "SIRI_DICTATION_ASSETS" : "613fb41374f55d4a733ca7c8"
+      },
+      "deploymentId" : 240000174
+    },
+    {
+      "rolloutId" : "5fc94383418129005b4e9ae0",
+      "factorPackIds" : {
+        "SIRI_UNDERSTANDING_ASR_HAMMER" : "6141f56e74f55d4a733ca998"
+      },
+      "deploymentId" : 240000126
+    },
+    {
+      "rolloutId" : "60509d56f2766876dee21c11",
+      "factorPackIds" : {
+        "SIRI_UNDERSTANDING_ASR_ASSISTANT" : "613fb5d074f55d4a733ca7ef",
+        "SIRI_UNDERSTANDING_NL" : "613fb5d45ee1b43be2b81bf0",
+        "SIRI_UNDERSTANDING_MORPHUN" : "613fb5cc74f55d4a733ca7e3",
+        "SIRI_EXPERIENCE_CAM" : "613fb5d774f55d4a733ca811"
+      },
+      "deploymentId" : 240000396
+    },
+    {
+      "rolloutId" : "602c34a3046661000c9ebdde",
+      "factorPackIds" : {
+        "SIRI_UNDERSTANDING_NL_OVERRIDES" : "613fb3b65ee1b43be2b81bb1"
+      },
+      "deploymentId" : 240000407
+    },
+    {
+      "rolloutId" : "5ffde50ce2aacd000d47a95f",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000038
+    },
+    {
+      "rolloutId" : "60da5e84ab0ca017dace9abf",
+      "factorPackIds" : {
+
+      },
+      "deploymentId" : 240000008
+    },
+    {
+      "rolloutId" : "607844aa04477260f58a8077",
+      "factorPackIds" : {
+        "SIRI_MORPHUN_ASSETS" : "6103050cbfe6dc472e1c982a"
+      },
+      "deploymentId" : 240000066
+    }
+  ],
+  "experiments" : [
+
+  ]
+}
+}
