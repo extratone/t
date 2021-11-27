@@ -45,6 +45,24 @@
 | Send File                                          | Ctrl + O                      |
 | Open Contacts                                      | Ctrl + J                      |
 
+![Slander Crimson Theme](https://user-images.githubusercontent.com/43663476/143668793-a2ba30ec-f4c9-48cf-8568-d055844e3137.png)
+
+### [Slander Crimson Theme](https://t.me/addtheme/slandercrimson)
+
+⇨ [**Theme share link**](https://t.me/addtheme/slandercrimson) 
+
+`https://t.me/addtheme/slandercrimson`
+
+⚙︎ [GitHub Issue](https://github.com/extratone/t/issues/5)
+
+```css
+name: Slander Crimson
+shortname: slandercrimson
+author: @DavidBlue
+basedOn: night
+dark: true
+```
+
 ![SYSTEM COLORS](https://i.snap.as/W0JHUEKM.png)
 
 ## [SYSTEM COLORS Telegram Themes](https://telegra.ph/SYSTEM-COLORS-Themes-for-iOS-Bound-Telegram-09-27)
