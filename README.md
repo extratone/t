@@ -6,8 +6,57 @@
 
 ╳⇥ [**Main Telegram Channel**](https://t.me/extratone) 
 
+### "[I Trust Telegram](https://bilge.world/telegram)" | *The Psalms*
+
 * [My profile](https://t.me/DavidBlue)
 * [My local @ColumbiaMO channel experiment](https://t.me/columbiamo)
+
+## Siri Shortcuts for Telegram
+
+- **[Seek Telegram Message by ID Shortcut](https://routinehub.co/shortcut/10930)**
+Open Telegram message by specified channel(or)group/messageID.
+
+- **[URL List ⇨ Telegram Shortcut](https://routinehub.co/shortcut/10926)**
+Send URLs in separate messages to a specified contact in Telegram.
+- [Video Demo on Telegram](https://t.me/extratone/9978)
+
+- **[Clipboard ⇨ Telegram Message Shortcut](https://routinehub.co/shortcut/10929)**
+Send clipboard text to phone number-based contact in Telegram.
+
+<img src="https://github.com/extratone/t/raw/main/ios-themes/Signals.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/UOrange.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Academia.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Divorced.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/RoroJump.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Allo4Life.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/DarkShell.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/FreshMint.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Futuretab.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Greyhound.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Hermitage.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/SpacePiss.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/LynchRhino.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/MarsOrange.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/SepiaBlues.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/TapbotsPro.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/PostAcademia.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/RoroJump2022.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/MirageKimberly.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/SlanderCrimson.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/WindowsEternal.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/HoneyHighlights.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/VampireReference.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/VaporFucked Light.png" width="15%"></img>
+
+# Telegram Themes Index 
+**[Superb Themes for Telegram on iOS](https://telegra.ph/Superb-Telegram-Themes-for-iOS-01-27)**
+1. [𝘞𝘐𝘕𝘋𝘖𝘞𝘚](https://t.me/addtheme/windowseternal) [𝘌𝘛𝘌𝘙𝘕𝘈𝘓](https://t.me/addtheme/windowseternal)
+2. [Allo4Life](https://t.me/addtheme/allo4life)
+3. [Fresh Mint - Tweetbot 6](https://t.me/addtheme/freshmint)
+4. [Greyhound](https://t.me/addtheme/greyhound)
+5. [Space Piss](https://t.me/addtheme/spacepiss)
+6. [Vampire Reference](https://t.me/addtheme/vampirereference)
+7. [Signals](https://t.me/addtheme/signals2022)
+8. [Futuretab](https://t.me/addtheme/futuretab2022)
+9. [Slander Crimson](https://t.me/addtheme/slandercrimson)
+10. [Academia](https://t.me/addtheme/academia2022)
+11. [Hermitage](https://t.me/addtheme/hermitage2022)
+12. [Divorced Empress Navier](https://t.me/addtheme/navier2022)
+13. [Roro Jump](https://t.me/addtheme/rorojump2022)
+14. [Dark, Post-Academia](https://t.me/addtheme/postacademia)
+15. [UOrange](https://t.me/addtheme/uorange)
+16. [Vaporfucked](https://t.me/addtheme/vaporfucked)
+18. [Dark Shell](https://t.me/addtheme/darkshell2022)
+19. [Honey Highlight](https://t.me/addtheme/HoneyHighlight2021)
+20. [Mirage on Kimberly](https://t.me/addtheme/miragekimberly)
+21. [Lynch on Rhino](https://t.me/addtheme/lynchrhino)
+22. [Mars Orange](https://t.me/addtheme/marsorange)
+23. [Sepia Blues](https://t.me/addtheme/sepiablues2022)
+24. [Strawberry Night](https://t.me/addtheme/StrawberryNight2022)
+25. [Tapbots](https://t.me/addtheme/tapbots)
+26. [Green Dark](https://t.me/addtheme/greendark2022)
+27. [Puaro](https://t.me/addtheme/puaro2022)
+28. [DarkQD](https://t.me/addtheme/darkqd2022)
+29. [Mineshaft Gold](https://t.me/addtheme/mineshaftgold2022)
+30. [Jellygram](https://t.me/addtheme/jellygram2022)
+31. [Japan Serenity](https://t.me/addtheme/japanserenity2022)
 
 ## Telegram Desktop Keyboard Shortcuts
 
@@ -100,32 +149,3 @@ I started with [perhaps the best light theme for this app I’ve ever found](htt
 …and now I’m a real life Software Developer™! How amazing is tech in 2021, right???)
 
 ---
-
-<img src="https://github.com/extratone/t/raw/main/ios-themes/Signals.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/UOrange.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Academia.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Divorced.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/RoroJump.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Allo4Life.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/DarkShell.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/FreshMint.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Futuretab.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Greyhound.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/Hermitage.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/SpacePiss.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/LynchRhino.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/MarsOrange.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/SepiaBlues.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/TapbotsPro.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/PostAcademia.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/RoroJump2022.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/MirageKimberly.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/SlanderCrimson.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/WindowsEternal.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/HoneyHighlights.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/VampireReference.png" width="15%"></img> <img src="https://github.com/extratone/t/raw/main/ios-themes/VaporFucked Light.png" width="15%"></img>
-
-## Third Party Themes Index
-
-- [**𝘞𝘐𝘕𝘋𝘖𝘞𝘚 𝘌𝘛𝘌𝘙𝘕𝘈𝘓**](https://t.me/addtheme/windowseternal)
-- [**Allo4Life**](https://t.me/addtheme/allo4life)
-- [Fresh Mint - Tweetbot 6](https://t.me/addtheme/freshmint)
-- [**Greyhound**](https://t.me/addtheme/greyhound)
-- [Space Piss](https://t.me/addtheme/spacepiss)
-- [Vampire Reference](https://t.me/addtheme/vampirereference)
-- [Signals 2022](https://t.me/addtheme/signals2022)
-- [Futuretab 2022](https://t.me/addtheme/futuretab2022)
-- [Slander Crimson](https://t.me/addtheme/slandercrimson)
-- [VK Blue](https://t.me/addtheme/vkbackup)
-- [Academia 2022](https://t.me/addtheme/academia2022)
-- [Hermitage 2022](https://t.me/addtheme/hermitage2022)
-- [~~The Remarried~~ Divorced Empress Navier](https://t.me/addtheme/navier2022)
-- [Roro Jump 2022](https://t.me/addtheme/rorojump2022)
-- [Dark, Post-Academia](https://t.me/addtheme/postacademia)
-- [UOrange](https://t.me/addtheme/uorange)
-- [**Vaporfucked**](https://t.me/addtheme/vaporfucked)
-- [Vaporfucked Light](https://t.me/addtheme/vaporfuckedlight)
-- [Dark Shell](https://t.me/addtheme/darkshell2022)
-- [Honey Highlight](https://t.me/addtheme/HoneyHighlight2021)
-- [Mirage on Kimberly](https://t.me/addtheme/miragekimberly)
-- [Lynch on Rhino](https://t.me/addtheme/lynchrhino)
-- [Mars Orange](https://t.me/addtheme/marsorange)
-- [Sepia Blues](https://t.me/addtheme/sepiablues2022)
