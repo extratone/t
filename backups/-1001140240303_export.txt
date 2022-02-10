@@ -1,0 +1,334 @@
+{
+  "bot_id": 609517172,
+  "data": {
+    "admin": {
+      "admin_error_disable": false,
+      "anon_admin": false,
+      "legacy_admin": false
+    },
+    "antiflood": {
+      "action": "ban",
+      "action_duration": 0,
+      "flood_limit": 0
+    },
+    "blocklists": {
+      "action": "mute",
+      "action_duration": 0,
+      "default_reason": "",
+      "filters": [
+        {
+          "name": "horny",
+          "reason": "So sorry, but sex work/solicitation has been at least temporarily banned here until we can figure out what to do about the sex bots lol. Please contact me @DavidBlue if you feel this has happened in error."
+        }
+      ],
+      "should_delete": true
+    },
+    "disabled": {
+      "disabled": null,
+      "should_delete": false
+    },
+    "federations": {
+      "fed_id": "423680c6-9044-4a4b-92ba-b4e6a36aaec6",
+      "quiet_ban": false
+    },
+    "filters": {
+      "filters": null
+    },
+    "greetings": {
+      "captcha_rules": true,
+      "goodbye": {
+        "data_id": "",
+        "text": "⅁🇴🇴⍙  ㎚@ⓡⓝ⌶🅽g !⏚⏚ {mention}{first}{last}{id}{username}{fullname}!\n%%%\n{mention}{first}{last}{id}{username}{fullname} is in the house!\n%%%\nG̏̽͋ͩͬ͊̈́o͌ͭ͆̂̍̈́̌oͩ͒ͩd̋̃͑ ͐ͣm̌orͬͥͤͣ n̋ͧͩ͐i͛̉n̔̎g̏͂̔ͦ̈! {mention}{first}{last}{id}{username}{fullname}\n\n{rules}",
+        "type": 0
+      },
+      "kick_after": 0,
+      "mute_for": 0,
+      "mute_mode": "text",
+      "mute_text": "",
+      "should_clean": true,
+      "should_delete_service": true,
+      "should_goodbye": true,
+      "should_kick": false,
+      "should_mute": true,
+      "should_welcome": true,
+      "welcome": {
+        "data_id": "",
+        "text": "⅁🇴🇴⍙  ㎚@ⓡⓝ⌶🅽g !⏚⏚ {mention}{first}{last}{id}{username}{fullname}!\n%%%\n{mention}{first}{last}{id}{username}{fullname} ARRIVAL\n%%%\nG̏̽͋ͩͬ͊̈́o͌ͭ͆̂̍̈́̌oͩ͒ͩd̋̃͑ ͐ͣm̌orͬͥͤͣ n̋ͧͩ͐i͛̉n̔̎g̏͂̔ͦ̈! {mention}{first}{last}{id}{username}{fullname}\n\n{rules}",
+        "type": 0
+      }
+    },
+    "locks": {
+      "allowlisted_url": null,
+      "lock_warns": false,
+      "locks": {
+        "album": false,
+        "all": false,
+        "anonchannel": false,
+        "audio": false,
+        "bot": false,
+        "button": false,
+        "command": false,
+        "comment": false,
+        "contact": false,
+        "document": false,
+        "email": false,
+        "emojigame": false,
+        "forward": false,
+        "forwardbot": false,
+        "forwardchannel": false,
+        "forwarduser": false,
+        "game": false,
+        "gif": false,
+        "inline": false,
+        "invitelink": true,
+        "location": false,
+        "phone": false,
+        "photo": false,
+        "poll": false,
+        "rtl": false,
+        "spoiler": false,
+        "sticker": false,
+        "text": false,
+        "url": false,
+        "video": false,
+        "videonote": false,
+        "voice": false
+      }
+    },
+    "notes": {
+      "notes": [
+        {
+          "data_id": "CQACAgEAAxkBGGNxvWHx84Z1b-SsP2xHqKeMH68NgWZCAALwAQAChbdJRhcivoCehkhnIwQ",
+          "name": "2021",
+          "text": "*___Best of 2021 (Odesli Links)___*\n 1 [Strawberry by Doss](https://song.link/i/1553501219)\n 2 [Will You Be? by Baltra](https://song.link/i/1560411683)\n 3 [You Could Be by Anz, George Riley](https://song.link/i/1583330906)\n 4 [Slugs by Harrison BDP](https://song.link/i/1547278235)\n 5 [Techno Halcyon by Ivy Hollivana](https://song.link/i/1550264586)\n 6 [Cuiva by Parra for Cuva](https://song.link/i/1554130907)\n 7 [Never Come Back by Caribou](https://song.link/i/1487724484)\n 8 [You Can Do It by Caribou](https://song.link/i/1579568544)\n 9 [Never Enough by Disclosure](https://song.link/i/1579091593)\n 10 [Hyperfunk (Mixed) by Antonio](https://song.link/i/1566023451)\n 11 [Genesis by Ivy Hollivana](https://song.link/i/1566156050)\n 12 [U Already Know by DJ Seinfeld \u0026 Teira](https://song.link/i/1565509312)\n 13 [Harmony by Origin8a \u0026 Propa \u0026 Benny Page](https://song.link/i/1556899000)\n 14 [Not Alone (ReeLLove Remix) by Lusine \u0026 ReeLLove](https://song.link/us/i/1554899944)\n 15 [I Can’t Explain by The Juan MacLean](https://song.link/i/1560964065)\n 16 [Gone by BAILE](https://song.link/i/1565404578)\n 17 [Every Cloud by Harrison BDP](https://song.link/i/1564104025)\n 18 [Puppy by Doss](https://song.link/i/1553501217)\n 19 [If the Shoe Fits by DJ Swisha](https://song.link/i/1552517751)\n 20 [Every Single Time by Bissett](https://song.link/i/1548503334)\n 21 [Music To Heal To by Elkka](https://song.link/i/1584210954)\n 22 [Mars by Qrion, Mars Kasei](https://song.link/i/1581092689)\n 23 [I Have a Love - Overmono Remix by For Those I Love](https://song.link/i/1566023459)\n 24 [Say Something by Kylie Minogue](https://song.link/i/1586649177)\n 25 [Out of Sorts by BAILE](https://song.link/i/1591498695)",
+          "type": 6
+        },
+        {
+          "data_id": "",
+          "name": "administrativefederation",
+          "text": "`Created new federation with FedID: 6ab78918-b27b-4c33-ae5e-15a109588377.\nUse this ID to join the federation! eg:\n/joinfed 6ab78918-b27b-4c33-ae5e-15a109588377\nSuccessfully joined the \"Extratone\" federation! All new federation bans will now also remove the members from this chat.`\n__Telegram: Contact__ __@extratone__\n__Federation Extratone has now subscribed to Rose Support Official. All fedbans in Rose Support Official will now take effect in both feds.__\nExtratone, [Jan 11, 2022 at 15:37]\nSuccessfully joined the “Extratone” federation! All new federation bans will now also remove the members from this chat.\nExtratone, [Jan 11, 2022 at 15:39]\nFederation Extratone has now subscribed to Rose Support Official. All fedbans in Rose Support Official will now take effect in both feds.\nExtratone, [Jan 11, 2022 at 16:06]\nFederation Extratone has now subscribed to @SpamWatch. All fedbans in @SpamWatch will now take effect in both feds.\nExtratone, [Jan 11, 2022 at 16:06]\nFed info:\nFedID: 1c2221d9-aa27–4baf-b77c-8822b36254d2 Name: @SpamWatch\nCreator: this person (172811422)\nNumber of admins: 1\nNumber of bans: 240233\nNumber of connected chats: 770\nNumber of subscribed feds: 590\nThis federation is not subscribed to any other feds.\nExtratone, [Jan 11, 2022 at 16:06] Admins in federation ‘@SpamWatch’:\n- è Simon | Schu rrle é (172811422)\n • https://t.me/extratone/9658\n • https://t.me/extratone/9659\n • [__Telegram: Contact @extratone__](https://t.me/extratone/9660)\n • [__Telegram: Contact @extratone__](https://t.me/extratone/9661)\n • [__Telegram: Contact @extratone__](https://t.me/extratone/9662) **\n\n*Rose Support Federation Info*\nFed info: FedID: 86718661–6bfc-4bd0–9447–7c419eb08e69 Name: Rose Support Official Creator: this person (254318997) Number of admins: 10 Number of bans: 5951 Number of connected chats: 249 Number of subscribed feds: 361\nThis federation is not subscribed to any other feds.\n*Admins*\nAdmins in federation ‘Rose Support Official’:\n • Dalirena🐮 (2153160)\n • Kees Sonnema (18673980)\n • Andrea (48271100)\n • Harsh Shandilya (211931420)\n • Paul Larsen (254318997)\n • Taylor (260150652)\n • Sebastian (348909717)\n • Glen DeSouza 🎄🐫 (415692419)\n • Kyle (491256848)\n • H 1 (788429389)\n\n*SpamWatch Federation Info*\nFed info: FedID: 1c2221d9-aa27–4baf-b77c-8822b36254d2 Name: @SpamWatch Creator: __this person__ (172811422) Number of admins: 1 Number of bans: 240233 Number of connected chats: 770 Number of subscribed feds: 590\nThis federation is not subscribed to any other feds.",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "admins",
+          "text": "Admins in *Columbia Local*:\n- @divinewind30\n- @MrMustang69\n- @Willyv75\n- @DavidBlue",
+          "type": 0
+        },
+        {
+          "data_id": "BQACAgEAAx0CSSTCdgACKWph5zTjYvFRYw7alE999mfSDQHpGwACrwIAAqkDOEcw9K6s7za7TCME",
+          "name": "contact",
+          "text": "[*__David Blue’s Contact Information__*](https://davidblue.wtf/db.vcf)\n\n•[__Contact Card__](https://davidblue.wtf/db.vcf)\n•[__Telegram__](https://t.me/extratone)\n•__Email__\n•[__Twitter__](https://twitter.com/NeoYokel)\n•[__Mastodon__](https://mastodon.social/@DavidBlue)\n•[__Discord__](https://discord.gg/0b9KQUKP858b0iZF)\n_•_[___Everywhere___](https://raindrop.io/davidblue/social-directory-21059174)…",
+          "type": 8
+        },
+        {
+          "data_id": "",
+          "name": "draftsactions",
+          "text": "*David Blue’s Drafts Action Directory Contributions\nActions*\n • [Fetch contents of # Tot Dot | Drafts Directory](https://actions.getdrafts.com/a/1ub)\n • [Send Draft to Telegram Saved Messages | Drafts Directory](https://actions.getdrafts.com/a/1u5)\n • [Append to 7th Tot Dot | Drafts Directory](https://actions.getdrafts.com/a/1uL)\n • [List Action Shortcuts, Comma-Delimited | Drafts Directory](https://actions.getdrafts.com/a/1s7)\n • [Markdown Footnote (Variation) | Drafts Directory](https://actions.getdrafts.com/a/1q9)\n • [Markdown Emphasis (*) | Drafts Directory](https://actions.getdrafts.com/a/1pa)\n • [Embed](https://actions.getdrafts.com/a/1lM) [Element | Drafts Directory](https://actions.getdrafts.com/a/1lM)\n*Action Groups*\n • [NeoCities | Drafts Directory](https://actions.getdrafts.com/g/1uF)\n*Themes*\n • [The Psalms | Drafts Directory](https://actions.getdrafts.com/t/1km)\n • [Windows Iowa | Drafts Directory](https://actions.getdrafts.com/t/1kY)",
+          "type": 0
+        },
+        {
+          "data_id": "BQACAgEAAxkBGFEWF2HvxXgcfYWx04K0AAHMYQqxWaUVbgACvAEAAvT0eUf0R3m_VOLErCME",
+          "name": "draftsactionsindex",
+          "text": "",
+          "type": 8
+        },
+        {
+          "data_id": "",
+          "name": "extrafed",
+          "text": "[In reply to David Blue]\nFed info:\n`FedID: 6ab78918-b27b-4c33-ae5e-15a109588377`\nName: Extratone\nCreator: [this person (](tg://user?id=233653652)`233653652`)\n`Number of admins: 2\nNumber of bans: 0\nNumber of connected chats: 2\nNumber of subscribed feds: 0`\n\nSubscribed to the following feds:\n`- Rose Support Official (86718661-6bfc-4bd0-9447-7c419eb08e69`)\n- @SpamWatch `(1c2221d9-aa27-4baf-b77c-8822b36254d2`)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "extras",
+          "text": "https://telegra.ph/Telegram-Extras-02-02",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "fedban",
+          "text": "*Banning Users From Federations*\n\nBanning a user from a federation is very similar to issuing a regular ban in a group. There two methods you can use to ban from a federation. They both use the exact same syntax. To perform a federation ban, issue the below command:\n\n`/fban \u003c@username or UserID\u003e`\n\nLike other commands you can perform on users, you can issue the ban by replying directly to the user's message with the below command:\n\n`/fban`\n\nWhen you issue a fedban within a group chat, you must be an admin of the federation which the group chat is joined to. If you aren't an admin for that federation, you will not be able to perform a fedban.\n\n*Note: If you issue a fedban from inside a PM session with Rose, the ban will be applied to the federation which you are the owner of. This applies even if you've connected to a chat with the* */connect* *command, so if you're using the command in a PM session with Rose, make sure to remember this! (Also applies to unbans)*",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "funban",
+          "text": "*Unbanning Users From Federations*\n\nTo unban a user from a federation, simply issue the below command:\n\n`/funban \u003c@username or UserID\u003e`\n\nLike fedbans, you can also reply to a user's message with the below command:\n\n`/funban`\n\nNote: Contrary to popular belief, /funbans are not fun.",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "highlights",
+          "text": "# [Safari Extensions - Safari - Apple Developer](https://developer.apple.com/safari/extensions/)\n\n\u003e Legacy Safari Extensions (.safariextz files) built with Safari Extension Builder are not supported in Safari 13 on macOS Catalina, macOS Mojave, or macOS High Sierra. The Safari Extensions Gallery for legacy extensions will no longer be available in September, 2019. Users on macOS High Sierra or later can easily find extensions\n\n# [iOS 15 Reviewed for My Family — The Psalms](https://bilge.world/ios-15-family-review)\n\n\u003e when something should happen or change. A great example: using [a simple Siri Shortcut](https://www.icloud.com/shortcuts/ac6a4587d5b54abc934631c214d81c0c) to completely disable Wi-Fi and Bluetooth instead of trusting the [unnecessarily complex conditions](https://support.apple.com/en-us/HT208086) of doing so with the buttons in Control Center. I have sought out these “hacks” (as other iOS powerusers have rather absurdly called them) for very selfish reasons.\n\n\u003e rigging the “buttons” which are gradually being obscured or eliminated entirely in the assumption that Apple’s automation knows better than us users when something should happen or change. A great example: using [a simple Siri Shortcut](https://www.icloud.com/shortcuts/ac6a4587d5b54abc934631c214d81c0c) to completely disable Wi-Fi and Bluetooth instead of trusting the [unnecessarily complex conditions](https://support.apple.com/en-us/HT208086) of doing so with the buttons in Control Center. I have sought out these “hacks” (as other iOS powerusers have rather absurdly called them) for very selfish reasons.\n\n# [iOS and iPadOS 15: The MacStories Review - MacStories - Part 18](https://www.macstories.net/stories/ios-and-ipados-15-the-macstories-review/18/#weather)\n\n\u003e when you long-press a song in your Up Next queue, you’ll now find a new ‘Move to Top’ button in the context menu that lets you quickly put a song at the top of the queue.\n\n\u003e there’s a new Shared with You section in the Listen Now tab that aggregates Apple Music links shared with you in the [Messages](https://www.macstories.net/stories/ios-and-ipados-15-the-macstories-review/19/#messages) app and lets you jump back to the original message with one tap. This is my favorite implementation of Shared with You since my friends and I tend to share a lot of music links on a weekly basis, so I almost see this as “Reading List, but for music”, which totally works for me.\n\n# [Flexibits | Fantastical for iOS | Help](https://flexibits.com/fantastical-ios/help/keyboard-shortcuts)\n\n\u003e ### Main view:\n\u003e \n\u003e *   ⌘+N: New event\n\u003e     \n\u003e *   ⌘+I: Notifications\n\u003e     \n\u003e *   ⌘+,: Settings\n\u003e     \n\u003e *   ⌘+T: Go to Today\n\u003e     \n\u003e *   ⌘+Shift+F: Change sidebar layout (large iPad devices only)\n\u003e     \n\u003e *   ⌘+Shift+R: Refresh all\n\u003e     \n\u003e *   ⌘+F: Search\n\u003e     \n\u003e *   ⌘+R: Tasks\n\u003e     \n\u003e *   ⌘+1: Day view\n\u003e     \n\u003e *   ⌘+2: Week view\n\u003e     \n\u003e *   ⌘+3: Month view\n\u003e     \n\u003e *   ⌘+4: Year view\n\u003e     \n\u003e *   Shift+Up: Previous week\n\u003e     \n\u003e *   Shift+Down: Next week\n\u003e     \n\u003e *   Shift+Left: Previous day\n\u003e     \n\u003e *   Shift+Right: Next day\n\u003e     \n\u003e *   Control+1: All Calendars\n\u003e     \n\u003e *   Control+2-9: Switch calendar set\n\u003e     \n\u003e \n\u003e ### All navigation sheets:\n\u003e \n\u003e *   ⌘+.: Cancel\n\u003e     \n\u003e *   esc: Cancel\n\u003e     \n\u003e \n\u003e ### Task view:\n\u003e \n\u003e *   ⌘+N: New task\n\u003e \n\u003e ### Event view:\n\u003e \n\u003e *   ⌘+I: Edit\n\u003e     \n\u003e *   ⌘+Alt+Delete: Delete event\n\u003e     \n\u003e *   ⌘+.: Cancel\n\u003e     \n\u003e *   esc: Cancel\n\u003e     \n\u003e \n\u003e ### New item view:\n\u003e \n\u003e *   ⌘+N: Edit parser input\n\u003e     \n\u003e *   ⌘+Up/Down: Navigate items in popover\n\u003e     \n\u003e *   Enter: Select item\n\u003e     \n\u003e *   ⌘+I - Show more\n\u003e     \n\u003e \n\u003e ### New/edit item view:\n\u003e \n\u003e *   ⌘+. - Cancel\n\u003e     \n\u003e *   esc - Cancel\n\u003e     \n\u003e *   ⌘+E - Edit notes\n\u003e     \n\u003e *   ⌘+I - Show more\n\u003e     \n\u003e *   ⌘+K - Toggle between event/task\n\u003e     \n\u003e *   ⌘+Alt+Delete: Delete\n\u003e     \n\u003e *   ⌘+S: Save\n\u003e     \n\u003e *   ⌘+Enter: Save\n\n# [iOS \u0026 iPadOS 15.1 Beta 2 Release Notes | Apple Developer Documentation](https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-15_1-release-notes)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "id",
+          "text": "-1001140240303",
+          "type": 0
+        },
+        {
+          "data_id": "BAACAgEAAxkBGGmTB2HyqKvW1YaMVtLVhq4-Nz5eieUlAAILAgACLc2RR5uoJRxjgPibIwQ",
+          "name": "jorts2021",
+          "text": "*S   ⊥   ᴚ   O   ſ       1   2   0   2*",
+          "type": 3
+        },
+        {
+          "data_id": "AgACAgEAAxkBGFdMPWHwYTH-S7jJaTgw3jyGbVXFq3_EAAL6qTEbF8qIR8bK5GbeGAt3AQADAgADeQADIwQ",
+          "name": "logo",
+          "text": "",
+          "type": 2
+        },
+        {
+          "data_id": "BQACAgEAAx0CSSTCdgACJt1hyIxX6uSW_MbIWr_nvpBD5OzqVwACHAIAAjoWGUZYulI5drv-QSME",
+          "name": "mapaper",
+          "text": "Here's a zip file of the full-sized images.",
+          "type": 8
+        },
+        {
+          "data_id": "AgACAgEAAxkBGGdd2WHydeyL33fKAR8Wbq3eb192LtOhAAIjqjEbVNWRR-U3Zoj_yBh9AQADAgADeQADIwQ",
+          "name": "memecoremegamix",
+          "text": "",
+          "type": 2
+        },
+        {
+          "data_id": "BAACAgEAAxkBGE2cO2HvUWGc8rba6z8aOLNjkkyQ2z3SAAKMAQAC9PR5R2xfSVIGrtFXIwQ",
+          "name": "noirconfigurationutility",
+          "text": "*Noir Configuration Utility Shortcut*\n\n_Set dark mode and image dimming preferences for multiple domains at a time._\n\n- [*RoutineHub Page*](https://routinehub.co/shortcut/10917)\n- [iCloud Share Link](https://www.icloud.com/shortcuts/f780ce3da6684f37a96f4fcb389ca23c)\n- [Video Demo](https://youtu.be/rlbco5EQoDw)\n\nThis shortcut expects a rich text list of URLs to be in the clipboard. The idea is that you can use Safari 15’s “Copy Links” button on a tab group to set Noir preferences on all of the domains represented in said tab group. \n\nUpon installation of the shortcut, you’ll be prompted to choose:\n1. Dark Mode setting - Auto, On, or Off.\n2. Image Dimming setting - toggle on or off.\n3. An Apple Notes folder for basic logs of settings changed.\n\nUnfortunately, there is currently no method (that I’m aware of) of making the Noir preferences configurable between runs of the shortcut. If you’d like to set different preferences, my best advice is to maintain multiple installations of the shortcut for each set of preferences. (One for Dark Mode Off/Image Dimming Off, another for Dark Mode Auto, Image Dimming On, etc.)",
+          "type": 3
+        },
+        {
+          "data_id": "",
+          "name": "random",
+          "text": "*Random Content*\n\nAnother thing that can be fun, is to randomise the contents of a message. Make things a little more personal by changing welcome messages, or changing notes!\n\n*How to use random contents*:\n- `%%%`: This separator can be used to add \"random\" replies to the bot.\nFor example:\n`hello\n%%%\nhow are you`\nThis will randomly choose between sending the first message, \"hello\", or the second message, \"how are you\". Use this to make Rose feel a bit more customised! (only works in notes/filters/greetings)\n\n*Example welcome message:*:\n- Every time a new user joins, they'll be presented with one of the three messages shown here.\n-\u003e `/setwelcome\nhello there {first}!\n%%%\nOoooh, {first} is in the house!\n%%%\nWelcome to the group, {first}!`",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "reports",
+          "text": "Reports are currently enabled in this chat.\nUsers can use the /report command, or mention @admin, to tag all admins.\n\nTo change this setting, try this command again, with one of the following args: yes/no/on/off",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "rose",
+          "text": "[*ColumbiaMO Telegram Group Rose Configuration*](https://gist.github.com/extratone/b425bcbc4387cfa7f024cf80d7c80faa)\n\n`01182022-144024`\n\n`{\n  \"bot_id\": 609517172,\n  \"data\": {\n    \"admin\": {\n      \"admin_error_disable\": false,\n      \"anon_admin\": false,\n      \"legacy_admin\": false\n    },\n    \"antiflood\": {\n      \"action\": \"ban\",\n      \"action_duration\": 0,\n      \"flood_limit\": 0\n    },\n    \"blocklists\": {\n      \"action\": \"mute\",\n      \"action_duration\": 0,\n      \"default_reason\": \"\",\n      \"filters\": [\n        {\n          \"name\": \"horny\",\n          \"reason\": \"So sorry, but sex work/solicitation has been at least temporarily banned here until we can figure out what to do about the sex bots lol. Please contact me @DavidBlue if you feel this has happened in error.\"\n        }\n      ],\n      \"should_delete\": true\n    },\n    \"disabled\": {\n      \"disabled\": null,\n      \"should_delete\": false\n    },\n    \"federations\": {\n      \"fed_id\": \"6ab78918-b27b-4c33-ae5e-15a109588377\",\n      \"quiet_ban\": false\n    },\n    \"filters\": {\n      \"filters\": null\n    },\n    \"greetings\": {\n      \"captcha_rules\": true,\n      \"goodbye\": {\n        \"data_id\": \"\",\n        \"text\": \"\",\n        \"type\": 0\n      },\n      \"kick_after\": 0,\n      \"mute_for\": 0,\n      \"mute_mode\": \"text\",\n      \"mute_text\": \"\",\n      \"should_clean\": true,\n      \"should_delete_service\": true,\n      \"should_goodbye\": true,\n      \"should_kick\": false,\n      \"should_mute\": true,\n      \"should_welcome\": true,\n      \"welcome\": {\n        \"data_id\": \"\",\n        \"text\": \"Howdy, {mention}! \\nWelcome to the Columbia/Mid-Missouri area's local chat group!\\nIf you have issues or questions, please bother @DavidBlue, first.\\nYou should probably familiarize yourself with these: {rules}\",\n        \"type\": 0\n      }\n    },\n    \"locks\": {\n      \"allowlisted_url\": null,\n      \"lock_warns\": false,\n      \"locks\": {\n        \"album\": false,\n        \"all\": false,\n        \"anonchannel\": false,\n        \"audio\": false,\n        \"bot\": false,\n        \"button\": false,\n        \"command\": false,\n        \"comment\": false,\n        \"contact\": false,\n        \"document\": false,\n        \"email\": false,\n        \"emojigame\": false,\n        \"forward\": false,\n        \"forwardbot\": false,\n        \"forwardchannel\": false,\n        \"forwarduser\": false,\n        \"game\": false,\n        \"gif\": false,\n        \"inline\": false,\n        \"invitelink\": true,\n        \"location\": false,\n        \"phone\": false,\n        \"photo\": false,\n        \"poll\": false,\n        \"rtl\": false,\n        \"spoiler\": false,\n        \"sticker\": false,\n        \"text\": false,\n        \"url\": false,\n        \"video\": false,\n        \"videonote\": false,\n        \"voice\": false\n      }\n    },\n    \"notes\": {\n      \"notes\": [\n        {\n          \"data_id\": \"\",\n          \"name\": \"administrativefederation\",\n          \"text\": \"`Created new federation with FedID: 6ab78918-b27b-4c33-ae5e-15a109588377.\\nUse this ID to join the federation! eg:\\n/joinfed 6ab78918-b27b-4c33-ae5e-15a109588377\\nSuccessfully joined the \\\"Extratone\\\" federation! All new federation bans will now also remove the members from this chat.`\\n__Telegram: Contact__ __@extratone__\\n__Federation Extratone has now subscribed to Rose Support Official. All fedbans in Rose Support Official will now take effect in both feds.__\\nExtratone, [Jan 11, 2022 at 15:37]\\nSuccessfully joined the “Extratone” federation! All new federation bans will now also remove the members from this chat.\\nExtratone, [Jan 11, 2022 at 15:39]\\nFederation Extratone has now subscribed to Rose Support Official. All fedbans in Rose Support Official will now take effect in both feds.\\nExtratone, [Jan 11, 2022 at 16:06]\\nFederation Extratone has now subscribed to @SpamWatch. All fedbans in @SpamWatch will now take effect in both feds.\\nExtratone, [Jan 11, 2022 at 16:06]\\nFed info:\\nFedID: 1c2221d9-aa27–4baf-b77c-8822b36254d2 Name: @SpamWatch\\nCreator: this person (172811422)\\nNumber of admins: 1\\nNumber of bans: 240233\\nNumber of connected chats: 770\\nNumber of subscribed feds: 590\\nThis federation is not subscribed to any other feds.`",
+          "type": 0
+        },
+        {
+          "data_id": "BQACAgEAAx0CSSTCdgACKJJh3gXkMa3ccLNdz74GOWA9QysvWwACVQIAAvmb8Ub9c6aee65HeyME",
+          "name": "roseconfiguration",
+          "text": "",
+          "type": 8
+        },
+        {
+          "data_id": "",
+          "name": "rosefillings",
+          "text": "You can also customise the contents of your message with contextual data. For example, you could mention a user by name in the welcome message, or mention them in a filter!\n\n(Except with {})\n\nSupported fillings:\n- [first]: The user's first name.\n- [last]: The user's last name.\n- [fullname]: The user's full name.\n- [username]: The user's username. If they don't have one, mentions the user instead.\n- [mention]: Mentions the user with their firstname.\n- [id]: The user's ID.\n- [chatname]: The chat's name.\n- [rules]: Create a button to the chat's rules.\n- [preview]: Enables link previews for this message. Useful when using links to Instant View pages.\n\nExample usages:\n- Save a filter using the user's name.\n-\u003e /filter test [first] triggered this filter.\n- Add a rules button to a note.\n-\u003e /save info Press the button to read the chat rules! [rules]\n- Mention a user in the welcome message\n-\u003e /setwelcome Welcome [mention] to [chatname]!",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "routinehub",
+          "text": "*All @blue RoutineHub Links*\n • [Make Audio from Article Body (Siri Speech Synthesis)](https://routinehub.co/shortcut/9953/)))\n • [Spy Kids 3 Spam](https://routinehub.co/shortcut/10919/)\n • [Action Directory](https://routinehub.co/shortcut/10921/)\n • [Clipboard](https://routinehub.co/shortcut/10929/) [⇨](https://routinehub.co/shortcut/10929/) [Telegram Message](https://routinehub.co/shortcut/10929/)\n • [Seek Telegram Message by ID](https://routinehub.co/shortcut/10930/)\n • [BIG WORDLE](https://routinehub.co/shortcut/10918/) [𝘗𝘙𝘖](https://routinehub.co/shortcut/10918/)\n • [Holy Bible Spam](https://routinehub.co/shortcut/10925/)\n • [URL List](https://routinehub.co/shortcut/10926/) [⇨](https://routinehub.co/shortcut/10926/) [Telegram](https://routinehub.co/shortcut/10926/)\n • [Holy Bible Spam (macOS)](https://routinehub.co/shortcut/10924/)\n • [Last Trip Average Speed (mph)](https://routinehub.co/shortcut/10953/)\n • [Paul](https://routinehub.co/shortcut/10941/)\n • [Siri Shortcuts for Scrubs (Library Links)](https://routinehub.co/shortcut/10978/)\n • [Clipboard](https://routinehub.co/shortcut/10980/) [⇨](https://routinehub.co/shortcut/10980/) [Mastodon](https://routinehub.co/shortcut/10980/)\n • [Post to Write.as Blog (macOS)](https://routinehub.co/shortcut/10981/)\n • [File/App Icon Extractor (macOS)](https://routinehub.co/shortcut/10982/)\n • [\u003caudio\u003e Element Embed](https://routinehub.co/shortcut/9948/)\n • [Mastodon Share](https://routinehub.co/shortcut/9776/)\n • [Make Audio from Document Text](https://routinehub.co/shortcut/10028/)\n • [Mastgur](https://routinehub.co/shortcut/9781/)\n • [Reminders Backup](https://routinehub.co/shortcut/10118/)\n • [Speedy Frames](https://routinehub.co/shortcut/10775/)\n • [What’s wrong with Spotify?](https://routinehub.co/shortcut/10402/)\n • [Safari Tabs Archive](https://routinehub.co/shortcut/10774/)\n • [Siri Speech Synthesis (MacOS)](https://routinehub.co/shortcut/10583/)\n • [Data Jar List](https://routinehub.co/shortcut/10730/)\n • [Safari Tabs Jar](https://routinehub.co/shortcut/10868/)\n • [Spy Kids 3 Spam (macOS)](https://routinehub.co/shortcut/10873/)\n • [Sleep Now (macOS)](https://routinehub.co/shortcut/10867/)\n • [Restore Safari Tabs](https://routinehub.co/shortcut/10869/)\n • [DavodTime](https://routinehub.co/shortcut/10872/)\n • [Title Case](https://routinehub.co/shortcut/10866/)\n • [BIG WORDLE](https://routinehub.co/shortcut/10871/)\n • [Noir Configuration Utility](https://routinehub.co/shortcut/10917/)\n • [Current Song](https://routinehub.co/shortcut/8940/) [⇨](https://routinehub.co/shortcut/8940/) [Song.Link](https://routinehub.co/shortcut/8940/) [⇨](https://routinehub.co/shortcut/8940/) [Clipboard](https://routinehub.co/shortcut/8940/) [⇨](https://routinehub.co/shortcut/8940/) [Safari](https://routinehub.co/shortcut/8940/)\n • [Wake Up Weather Spoken Aloud](https://routinehub.co/shortcut/8387/)\n • [Audio file](https://routinehub.co/shortcut/8914/) [⇨](https://routinehub.co/shortcut/8914/) [Base64 Text](https://routinehub.co/shortcut/8914/)\n • [Marco!](https://routinehub.co/shortcut/8987/)\n • [Capture Web Page to Drafts](https://routinehub.co/shortcut/8994/)\n • [Apple News](https://routinehub.co/shortcut/8690/) [⇨](https://routinehub.co/shortcut/8690/) [Safari](https://routinehub.co/shortcut/8690/)\n • [Collect References](https://routinehub.co/shortcut/8913/)\n • [Scrub URL](https://routinehub.co/shortcut/8783/)\n • [MusicHarbor Artist List](https://routinehub.co/shortcut/8935/)\n • [Overcast Show Notes](https://routinehub.co/shortcut/8944/) [⇨](https://routinehub.co/shortcut/8944/) [Drafts](https://routinehub.co/shortcut/8944/)\n • [Overcast Show Notes](https://routinehub.co/shortcut/8943/) [⇨](https://routinehub.co/shortcut/8943/) [Markdown](https://routinehub.co/shortcut/8943/)\n • [Overcast Show Notes](https://routinehub.co/shortcut/8942/) [⇨](https://routinehub.co/shortcut/8942/) [Bear](https://routinehub.co/shortcut/8942/)\n • [Capture Web Page in Markdown](https://routinehub.co/shortcut/9549/)\n • [Custom Text Image](https://routinehub.co/shortcut/9284/)\n • [David Blue](https://routinehub.co/shortcut/9282/)\n • [App Store Marketing Tools](https://routinehub.co/shortcut/9821/)\n • [They/Them](https://routinehub.co/shortcut/10511/)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "shortcuts",
+          "text": "*David Blue’s WORLD FAMOUS Fast n’ Loose™ Siri Shortcuts for* 𝚂𝙲𝚁𝚄𝙱𝚂\n\n- [David Blue’s WORLD FAMOUS Fast n’ Loose™ Siri Shortcuts for](https://github.com/extratone/bilge/wiki/David-Blue%E2%80%99s-WORLD-FAMOUS-Fast-n%E2%80%99-Loose%E2%84%A2-Siri-Shortcuts-for-%F0%9D%9A%82%F0%9D%99%B2%F0%9D%9A%81%F0%9D%9A%84%F0%9D%99%B1%F0%9D%9A%82) [𝚂𝙲𝚁𝚄𝙱𝚂](https://github.com/extratone/bilge/wiki/David-Blue%E2%80%99s-WORLD-FAMOUS-Fast-n%E2%80%99-Loose%E2%84%A2-Siri-Shortcuts-for-%F0%9D%9A%82%F0%9D%99%B2%F0%9D%9A%81%F0%9D%9A%84%F0%9D%99%B1%F0%9D%9A%82) [· extratone/bilge Wiki](https://github.com/extratone/bilge/wiki/David-Blue%E2%80%99s-WORLD-FAMOUS-Fast-n%E2%80%99-Loose%E2%84%A2-Siri-Shortcuts-for-%F0%9D%9A%82%F0%9D%99%B2%F0%9D%9A%81%F0%9D%9A%84%F0%9D%99%B1%F0%9D%9A%82)\n- [Shortlink](https://bit.ly/gitscrubs) - `[https://bit.ly/gitscrubs`](https://bit.ly/gitscrubs%60)\n- [Pastery](https://www.pastery.net/eujzmz/#eujzmz)\n- [WTF](https://davidblue.wtf/scrubs/)\n\n*All* of the Siri Shortcuts I’ve created or modified over the years and and thought worthy of sharing, prioritizing those which I have not shared on either my [RoutineHub](https://routinehub.co/user/blue) or [ShareShortcuts](https://shareshortcuts.com/u/blue/) profiles. You shouldn’t encounter share URLS from _any_ Shortcuts or File Shariing services, here - I thought a commitment to generating fresh `icloud.com/shortcuts`  URLs exclusively for this project would be in its best interest - I haven’t exactly been dilligently keeping track of them throughout the history of Siri Shortcuts as they’ve been exclusively shared this way…\n\n*Most Utilitarian* _(In Theory…)_\n- [screen](https://www.icloud.com/shortcuts/6fa16145d1a649ceb878f141b8e595b7) \n- [undercovered](https://www.icloud.com/shortcuts/18eb1e77ab0b455f82da4c4c6e521368) (define)\n- [style](https://www.icloud.com/shortcuts/3a2d212cc2614202be37b0beb8276e9b) (personal styleguide reference)\n- [Text Replacement](https://www.icloud.com/shortcuts/e6d56b3fe8bc40639a60f166315f255b)\n- [gps](https://www.icloud.com/shortcuts/c22c676ab4ee4b98b5a49b6112957b3c)\n- [sl](https://www.icloud.com/shortcuts/7c3946b289a846cb9e63f0bdade93fa5) (The best Odesli quick share automation in history.)\n\n*Music/Audio Delights*\n- [Fondren \u0026 Main](https://www.icloud.com/shortcuts/fc846ff0e9094e088a7af4c5c11c3a23)\n- [SHOW ME](https://www.icloud.com/shortcuts/029dea6d90f84223ac65be98fc803e7a)\n- [RIDE THE STORM](https://www.icloud.com/shortcuts/50ea8b3e026f41668f9a2a88c702a4c4)\n- [BREAKDALAW](https://www.icloud.com/shortcuts/0e175407850d4fcb83c64ea04c0c284f)\n- [Frank Ocean - Street Fighter](https://www.icloud.com/shortcuts/ce89a2fe4f444e9c973436922640a33a)\n- [HER](https://www.icloud.com/shortcuts/c6ab99cbc3d9430d87d4abbdf7714d16)\n- [GOGO](https://www.icloud.com/shortcuts/80fa232621df4112bd1a92a5ace8e088)\n- [FALTER](https://www.icloud.com/shortcuts/3f4efb0207ab4b0ca91606f160612273)\n- [KEEPIN LIVE](https://www.icloud.com/shortcuts/f9a1161ae7da41ac8dd772010be5a049)\n- [TKO](https://www.icloud.com/shortcuts/351c2593d3a2405691685fa6caf869aa)\n- [FUTURELAND](https://www.icloud.com/shortcuts/3da59e509709437d90927ba65860fc3a) \n- [WITNESS](https://www.icloud.com/shortcuts/62afd3c029da456aa62d593de28145c4)\n- [Meow](https://www.icloud.com/shortcuts/a32e7771f97c43feb5e228dc2c94a868)\n\n*Personal/Brand*\n- [The Psalms Ebook](https://www.icloud.com/shortcuts/eff33d5e122449deb190c70992022c97)\n- [DavodTime](https://www.icloud.com/shortcuts/5a4ebd4ed057415b8915c535951c1059)\n\n*Legacy/Drywall Media*\n- [trent](https://www.icloud.com/shortcuts/7a319d5b68b84fabb8e0c0bea441bb24)\n- [birthday](https://www.icloud.com/shortcuts/4c2c7fd58aa84208bce08b69936aafbf)\n- [WYGD](https://www.icloud.com/shortcuts/fd519a1a72c34a3d8559779826b23353)\n- [Minecraft Flying Tutorial](https://www.icloud.com/shortcuts/a1c368c909c741a2864d0dd747115354)\n- [homedepot](https://www.icloud.com/shortcuts/3409ec23198c4f34a82f08a8b680bd1e)\n\n*Okay*\n- [NILLA](https://www.icloud.com/shortcuts/d0ed337c304f430993f2c8d8953d5e69)\n- [BIG WORDLE](https://www.icloud.com/shortcuts/965dd56d81684881954be591303a962d)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "spykids3spam",
+          "text": "*Spy Kids 3 Spam (iOS) Shortcut Documentation*\n\n_Send one of cinema's great screenplays, line-by-line, to a recipient of your choice._ \n\n- [RoutineHub Page](https://routinehub.co/shortcut/10919)\n- [iCloud Share Link](https://www.icloud.com/shortcuts/2992a73be74b436697c7aeb3fca93d42)\n\nIt feels blasphemous to say so, but I believe I may have actually outdone the Original Masterpiece, [Bee Movie Spam](https://routinehub.co/shortcut/2623/)...\n\nThis shortcut sends the entirety of the [*Spy Kids 3* screenplay](https://gist.github.com/extratone/f9dfce369140a17b251bf8d09b07787c), line-by-line to a specified phone number or iMessage email address via Messages. \n\nBy my count, the screenplay text totals 6937 words in 1559 lines, which means 1559 messages total. I've tested it once all the way through just to confirm the cycle will complete, but didn't think to set a timer. It was more than 10 minutes, less than 30, I'd say.\n\nI left my own phone number - +15738234380 - in the `Default Number` field of the [Ask for Input](https://www.matthewcassinelli.com/actions/ask-for-input/) action very much on purpose - I promise it'll make my day if you use me as a test subject.\n- [Source Files](https://github.com/extratone/i/tree/main/shortcuts/Spy%20Kids%203%20Spam)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "stickerpacks",
+          "text": "1. [2021 Perdition](https://t.me/addstickers/perdition_by_stickersthiefbot)\n2. [GROTESQUE App Icons](https://t.me/addstickers/grotesque_by_stickersthiefbot)\n3. [Extending Emoji](https://t.me/addstickers/ExtendingEmoji_by_stickersthiefbot)\n4. [Extending Emoji II](https://t.me/addstickers/ExtendingEmoji2_by_stickersthiefbot)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "stickers",
+          "text": "1. [2021 Perdition](https://t.me/addstickers/perdition_by_stickersthiefbot)\n2. [GROTESQUE App Icons](https://t.me/addstickers/grotesque_by_stickersthiefbot)\n3. [Extending Emoji](https://t.me/addstickers/ExtendingEmoji_by_stickersthiefbot)\n4. [Extending Emoji II](https://t.me/addstickers/ExtendingEmoji2_by_stickersthiefbot)\n5. [macOS Icons](https://t.me/addstickers/macosicons_by_stickersthiefbot)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "stickersbackup",
+          "text": "[__macOSIcons__](https://t.me/extratone/9904) \n[__𝘎 𝘙 𝘖 𝘛 𝘌 𝘚 𝘘 𝘜 𝘌 𝘈𝘱𝘱 𝘐𝘤𝘰𝘯𝘴__](https://t.me/extratone/9905) \n[__Telegram Tweets__](https://t.me/extratone/9906) \n[__2021 PERDITION__](https://t.me/extratone/9907) \n[__Extending Emoji II__](https://t.me/extratone/9908) \n[__Extending Emoji__](https://t.me/extratone/9909)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "systemsounds",
+          "text": "*iOS System Sounds*\n- [*Previews*](https://extratone.github.io/iOSSystemSounds)\n- [Repository](https://github.com/extratone/iOSSystemSounds)\n- [iOS Soundboard Siri Shortcut](https://routinehub.co/shortcut/3224)",
+          "type": 0
+        },
+        {
+          "data_id": "",
+          "name": "telegraph",
+          "text": "*Telegraph Links*\n • [Telegram Extras – Telegraph](https://telegra.ph/Telegram-Extras-02-02)\n • [Superb Telegram Themes for iOS – Telegraph](https://telegra.ph/Superb-Telegram-Themes-for-iOS-01-27)\n • [undefined](https://telegra.ph/David-Blues-WORLD-FAMOUS-Fast-n-Loose-Siri-Shortcuts-for-%F0%9D%9A%82%F0%9D%99%B2%F0%9D%9A%81%F0%9D%9A%84%F0%9D%99%B1%F0%9D%9A%82-01-19)\n • [@ColumbiaMO Local Telegram Group Docs/Policies – Telegraph](https://telegra.ph/ColumbiaMO-Local-Telegram-Group-DocsPolicies-01-19)\n • [David Blue's Favorite Tracks of 2021 – Telegraph](https://telegra.ph/David-Blues-Favorite-Tracks-of-2021-12-26)\n • [Pee – Telegraph](https://telegra.ph/piss-11-30)\n • [PERDITION ICON SET](https://telegra.ph/2-0-2-1-%F0%9D%94%93%F0%9D%94%88%E2%84%9C%F0%9D%94%87%E2%84%91%F0%9D%94%97%E2%84%91%F0%9D%94%92%F0%9D%94%91-Icon-Set-12-23)\n • [28 Cool Telegram Messenger Tricks You Should Know | Beebom – Telegraph](https://telegra.ph/28-Cool-Telegram-Messenger-Tricks-You-Should-Know--Beebom-12-17)\n • [I Trust Telegram – Telegraph](https://telegra.ph/I-Trust-Telegram-12-16)\n • [Mark Fuck and the Goofy Godheads – Telegraph](https://telegra.ph/Mark-Fuck-and-the-Goofy-Godheads-11-30)\n • [ColumbiaMO Telegram Chat Rules – Telegraph](https://telegra.ph/ColumbiaMO-Telegram-Chat-Rules-11-30)\n • [Liberating UNIIQU3’s “TECHNO IS BLACK” Playlist from Spotify – Telegraph](https://telegra.ph/Liberating-UNIIQU3s-TECHNO-IS-BLACK-Playlist-from-Spotify-11-26)\n • [Siri Speech Synthesis on MacOS – Telegraph](https://telegra.ph/Siri-Speech-Synthesis-on-MacOS-11-26)\n • [Apple announces Self Service Repair – Telegraph](https://telegra.ph/Apple-announces-Self-Service-Repair-11-18)\n • [Eugen Rochko, Saint of Federated Social – Telegraph](https://telegra.ph/Eugen-Rochko-Saint-of-Federated-Social-11-02)\n • [About The Psalms – Telegraph](https://telegra.ph/I-Trust-Tele-10-30)\n • [The White Island – Telegraph](https://telegra.ph/The-White-Island-10-25)\n • [Digitizing the Soluble Protestant: Apple, Inc. \u0026 The Megachurch Industry – Telegraph](https://telegra.ph/Digitizing-the-Soluble-Protestant-Apple-Inc--The-Megachurch-Industry-10-23)\n • [I Trust Telegram – Telegraph](https://telegra.ph/I-Trust-Telegram-10-20)\n • [SYSTEM COLORS Themes for iOS-Bound Telegram – Telegraph]([SYSTEM COLORS Themes for iOS-Bound Telegram – Telegraph](https://telegra.ph/SYSTEM-COLORS-Themes-for-iOS-Bound-Telegram-09-27)\n • [Why I Write About Technology – Telegraph](https://telegra.ph/Why-I-Write-About-Technology-09-24)\n • [iOS 15 Reviewed for My Family – Telegraph](https://telegra.ph/iOS-15-Reviewed-for-My-Family-09-20)\n • [GitHub Keyboard Shortcuts – Telegraph](https://telegra.ph/GitHub-Keyboard-Shortcuts-03-28)\n • [BIG Fucking Image, Dude – Telegraph](https://telegra.ph/BIG-Fucking-Image-Dude-03-12)\n • [Good – Telegraph](https://telegra.ph/Good-08-08)\n • [Dirty Dave's Poweruser Tips – Telegraph](https://telegra.ph/Dirty-Daves-Poweruser-Tips-08-05)",
+          "type": 0
+        },
+        {
+          "data_id": "BAACAgEAAxkBGLGN7WH7F9Ep6CSR_4Z_VS1QCT2kEvYvAAIeAgACub_ZRypVmDbKWkjZIwQ",
+          "name": "textreplacement",
+          "text": "",
+          "type": 3
+        },
+        {
+          "data_id": "AgACAgEAAxkBGBEEimHoemX-qaiGPmXJgJQ-xe-stvtqAALSqTEbLLpAR1NqKc6Z95RgAQADAgADeQADIwQ",
+          "name": "themes",
+          "text": "*23 Superb Themes for Telegram on iOS*\n\n1. [𝘞𝘐𝘕𝘋𝘖𝘞𝘚 𝘌𝘛𝘌𝘙𝘕𝘈𝘓](https://t.me/addtheme/windowseternal)\n2. [Allo4Life](https://t.me/addtheme/allo4life)\n3. [Fresh Mint - Tweetbot 6](https://t.me/addtheme/freshmint)\n4. [Greyhound](https://t.me/addtheme/greyhound)\n5. [Space Piss](https://t.me/addtheme/spacepiss)\n6. [Vampire Reference](https://t.me/addtheme/vampirereference)\n7. [Signals](https://t.me/addtheme/signals2022)\n8. [Futuretab](https://t.me/addtheme/futuretab2022)\n9. [Slander Crimson](https://t.me/addtheme/slandercrimson)\n10. [Academia](https://t.me/addtheme/academia2022)\n11. [Hermitage](https://t.me/addtheme/hermitage2022)\n12. [Divorced Empress Navier](https://t.me/addtheme/navier2022)\n13. [Roro Jump](https://t.me/addtheme/rorojump2022)\n14. [Dark, Post-Academia](https://t.me/addtheme/postacademia)\n15. [UOrange](https://t.me/addtheme/uorange)\n16. [Vaporfucked](https://t.me/addtheme/vaporfucked)\n18. [Dark Shell](https://t.me/addtheme/darkshell2022)\n19. [Honey Highlight](https://t.me/addtheme/HoneyHighlight2021)\n20. [Mirage on Kimberly](https://t.me/addtheme/miragekimberly)\n21. [Lynch on Rhino](https://t.me/addtheme/lynchrhino)\n22. [Mars Orange](https://t.me/addtheme/marsorange)\n23. [Sepia Blues](https://t.me/addtheme/sepiablues2022)",
+          "type": 2
+        },
+        {
+          "data_id": "BAACAgEAAxkBGFMGzGHv9onDT2n5ucKaliWRlXgFD0kZAAJIAgAC9PR5RwOFAAElpmP4LyME",
+          "name": "urllisttotelegram",
+          "text": "*URL List ⇨ Telegram Shortcut*\n\n_Send URLs in separate messages to a specified contact in Telegram._\n\n- [URL List](https://github.com/extratone/i/issues/128) [⇨](https://github.com/extratone/i/issues/128) [Telegram · Issue #128 · extratone/i](https://github.com/extratone/i/issues/128)\n- [Video Demo File](https://user-images.githubusercontent.com/43663476/150978342-38480311-2275-4153-91aa-1e13640802ad.MOV)\n- [Video Demo YouTube](https://youtu.be/r7PMAWSbnY0)\n- [RoutineHub Page](https://routinehub.co/shortcut/10926)\n- [iCloud Share Link](https://www.icloud.com/shortcuts/dc4d33295ea64d3a90a26ea5c3b15264)\n\n---\n\nNote: I have only been able to get Telegram for iOS’ shortcut actions to work when using my full 10-digit number + international code (+15738234380.) My own number is the only one I’ve actually tried (I originally created this shortcut for my own use, which is excusively within my “Saved Messages” chat.)\n\nUsing a [Get URLs from Input](https://www.matthewcassinelli.com/actions/get-urls-from-input/) action, this shortcut sends a list of links as single-message-per-URL messages to a contact of your specification via Telegram. It can be added to the share sheet to receieve Text, Rich Text, and URLs. Otherwise, it will retrieve a list of links from the clipboard.",
+          "type": 3
+        },
+        {
+          "data_id": "BQACAgEAAxkBGO9vFGICB7S8rw8H_NN9PEoL0SwVCHoCAAImAgAC6kgRROcNDI3nvbUuIwQ",
+          "name": "wfactions",
+          "text": "",
+          "type": 8
+        }
+      ],
+      "private_notes": false
+    },
+    "pins": {
+      "antichannelpin": false,
+      "cleanlinked": false
+    },
+    "raids": {
+      "raid_mode_action_duration": 3600,
+      "raid_mode_duration": 21600
+    },
+    "reports": {
+      "disable_reports": false
+    },
+    "rules": {
+      "button_name": "",
+      "content": "# ColumbiaMO Telegram Chat Rules\n\n*Version 1.1 - 2021-11-29-21.15.46*\n\nHello, chat! I’ve finally drafted a presentable copy of the Big Bad Chat Rules.\n\nYou can find a revision-tracked version of this document on the GitHub repo I created, [here](https://github.com/extratone/columbia/blob/main/rules.md).\n\nI have also published [a parallel version](https://telegra.ph/ColumbiaMO-Telegram-Chat-Rules-11-30) of this document to Telegram’s longform service, Telegra.ph.\n\n1. *ColumbiaMO Local Chat* is a place to discuss current events and culture in a friendly, collegial way. We invite you to be smart, kind, welcoming, funny, charming, incisive, prescient, skeptical: whoever you are on your best day.\n2. *ColumbiaMO Local Chat* is reserved for people who live, have lived, or intend to live in mid-Missouri as well as travelers through the area. \n3. Share news, opinions, personal experiences, charts, data, photos, tweets, and other media. Do not share misinformation, disinformation, or spam — including in DMs to other members.\n4. Do not promote your own hustles — or your clients’ hustles — more than *once per day.*\n5. Disruptive off-topic posts (random interjections) are discouraged and unwelcome.\n6. Discuss subjects in good faith. Do not troll, mock, or harass other members of the community.\n7. Pseudonyms are welcome, and you do not have to disclose where you work, but do not impersonate anyone.\n8. Keep it safe for work. *ColumbiaMO Local Chat* is not the place for disturbing images, racy pictures, or anything else you wouldn’t want to share with your coworkers or family.\n9. Be inclusive of all people and points of view. This is particularly true for Black, Indigenous, and people of color, and people in the LBGTQ+ community. We will remove any homophobic, transphobic, misogynistic, or racist content without discussion.\n10. If someone is bothering you or you would like to report a post or member who you believe is violating these rules, please contact one of the Administrators or Moderators.\n11. Final moderation decisions are subject to the whims of the Admins and Mods.\n12. We expect to update these rules as necessary. When we do, you’ll see a notification attached to this message.\n13. Follow the spirit of these rules as well as the letter of them. Do not become an edgelord. We err on the side of removing borderline content — and borderline users — from the channel.\n14. At least for the moment, *automated* sharing of Crypto and sex-related content is a banable offense.",
+      "send_to_chat": false
+    },
+    "translations": {
+      "lang": "en-GB"
+    },
+    "warns": {
+      "action": "mute",
+      "action_duration": 0,
+      "warn_for": 0,
+      "warn_limit": 3
+    }
+  },
+  "version": 1
+}
