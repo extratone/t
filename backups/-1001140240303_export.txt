@@ -53,7 +53,7 @@
       "should_welcome": true,
       "welcome": {
         "data_id": "",
-        "text": "⅁🇴🇴⍙  ㎚@ⓡⓝ⌶🅽g !⏚⏚ {mention}{first}{last}{id}{username}{fullname}!\n%%%\n{mention}{first}{last}{id}{username}{fullname} ARRIVAL\n%%%\nG̏̽͋ͩͬ͊̈́o͌ͭ͆̂̍̈́̌oͩ͒ͩd̋̃͑ ͐ͣm̌orͬͥͤͣ n̋ͧͩ͐i͛̉n̔̎g̏͂̔ͦ̈! {mention}{first}{last}{id}{username}{fullname}\n\n{rules}",
+        "text": "ⓖⓞⓞⓓ ⓜⓞⓡⓝⓘⓝⓖ {mention} {first} {last} {username} {fullname} {id}",
         "type": 0
       }
     },
@@ -243,6 +243,12 @@
         },
         {
           "data_id": "",
+          "name": "sirisshortcuts",
+          "text": "*Siri Shortcuts for Scrubs*\n • [__Main File__](https://github.com/extratone/i/blob/main/shortcuts/scrubs.md#L0)\n • [__Gist__](https://gist.github.com/extratone/3f3748f2ee1cd0820ba099cb05809054)",
+          "type": 0
+        },
+        {
+          "data_id": "",
           "name": "spykids3spam",
           "text": "*Spy Kids 3 Spam (iOS) Shortcut Documentation*\n\n_Send one of cinema's great screenplays, line-by-line, to a recipient of your choice._ \n\n- [RoutineHub Page](https://routinehub.co/shortcut/10919)\n- [iCloud Share Link](https://www.icloud.com/shortcuts/2992a73be74b436697c7aeb3fca93d42)\n\nIt feels blasphemous to say so, but I believe I may have actually outdone the Original Masterpiece, [Bee Movie Spam](https://routinehub.co/shortcut/2623/)...\n\nThis shortcut sends the entirety of the [*Spy Kids 3* screenplay](https://gist.github.com/extratone/f9dfce369140a17b251bf8d09b07787c), line-by-line to a specified phone number or iMessage email address via Messages. \n\nBy my count, the screenplay text totals 6937 words in 1559 lines, which means 1559 messages total. I've tested it once all the way through just to confirm the cycle will complete, but didn't think to set a timer. It was more than 10 minutes, less than 30, I'd say.\n\nI left my own phone number - +15738234380 - in the `Default Number` field of the [Ask for Input](https://www.matthewcassinelli.com/actions/ask-for-input/) action very much on purpose - I promise it'll make my day if you use me as a test subject.\n- [Source Files](https://github.com/extratone/i/tree/main/shortcuts/Spy%20Kids%203%20Spam)",
           "type": 0
@@ -300,6 +306,12 @@
           "name": "wfactions",
           "text": "",
           "type": 8
+        },
+        {
+          "data_id": "BAACAgEAAxkBGScFymIISuLxXkvGZ5fZqkTwif4pz-XtAAITAwACq3xARJwng0oKurHjIwQ",
+          "name": "zalgodrafts",
+          "text": "Greg made me my very own [*__Zalgos Drafts Action__*](https://directory.getdrafts.com/a/1vM)!! my goodness I do believe this is the best gift I’ve ever received.",
+          "type": 3
         }
       ],
       "private_notes": false
